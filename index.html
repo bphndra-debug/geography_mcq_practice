@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MCQ Practice App</title>
+  <title>Geograpy MCQ Practice App</title>
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- KaTeX for rendering mathematical equations -->
@@ -12,15 +12,16 @@
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="initApp();"></script>
 
   <style>
+    /* Styling for embedded HTML tables inside JSON questions */
     .mcq-table {
       width: 100%;
       border-collapse: collapse;
       margin: 1rem 0;
       font-size: 0.875rem;
-      background-color: #0f172a;
+      background-color: #0f172a; /* Slate 900 */
       border-radius: 0.5rem;
       overflow: hidden;
-      border: 1px solid #334155;
+      border: 1px solid #334155; /* Slate 700 */
     }
     .mcq-table th, .mcq-table td {
       border: 1px solid #334155;
@@ -28,10 +29,11 @@
       text-align: center;
     }
     .mcq-table th {
-      background-color: #1e293b;
-      color: #818cf8;
+      background-color: #1e293b; /* Slate 800 */
+      color: #818cf8; /* Indigo 400 */
       font-weight: 600;
     }
+    /* Styling for diagram images */
     .q-image-container {
       text-align: center;
       margin: 1rem 0;
@@ -42,8 +44,6 @@
       border-radius: 0.5rem;
       border: 1px solid #334155;
       margin: 0 auto;
-      background-color: #ffffff;
-      padding: 4px;
     }
   </style>
 </head>
@@ -51,7 +51,7 @@
 
   <div class="max-w-2xl w-full bg-slate-800 border border-slate-700 rounded-xl shadow-2xl p-6 relative">
     
-    <!-- Top Bar -->
+    <!-- Top Progress Bar & Jump Control -->
     <div class="flex flex-wrap justify-between items-center mb-6 pb-4 border-b border-slate-700 gap-2">
       <div>
         <span class="text-xs font-semibold text-indigo-400 uppercase tracking-wide block">Interactive Practice</span>
@@ -59,7 +59,7 @@
         <span id="score-display" class="text-xs text-emerald-400 block mt-1">Score: 0 | Answered: 0</span>
       </div>
 
-      <!-- Jump Controls -->
+      <!-- Jump To Question Feature -->
       <div class="flex items-center space-x-2">
         <label for="jump-input" class="text-xs text-slate-400 font-medium">Jump to:</label>
         <input id="jump-input" type="number" min="1" placeholder="#" class="w-16 px-2 py-1 bg-slate-900 border border-slate-700 rounded text-center text-sm font-semibold text-indigo-300 focus:outline-none focus:border-indigo-500" onkeydown="handleJumpKey(event)">
@@ -74,7 +74,7 @@
     <!-- Options Container -->
     <div id="options-container" class="space-y-3 mb-6"></div>
 
-    <!-- Submit & Navigation Controls -->
+    <!-- Submit Button -->
     <div class="flex gap-2">
       <button id="prev-btn" onclick="previousQuestion()" class="w-1/3 py-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold rounded-lg transition duration-200">← Previous</button>
       <button id="submit-btn" onclick="checkAnswer()" disabled class="w-2/3 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition duration-200">Submit Answer</button>
@@ -97,7 +97,9 @@
     let questions = [];
     let currentIndex = 0;
     let selectedOption = null;
-    let userAnswers = {}; // Stores state for each question: { [index]: { selected: 'a', answered: true } }
+    let score = Number(localStorage.getItem('mcq_score') || 0);
+    let answeredCount = Number(localStorage.getItem('mcq_answered') || 0);
+    let hasAnsweredCurrent = false;
 
     const katexConfig = {
       delimiters: [
@@ -108,29 +110,6 @@
       ],
       throwOnError: false
     };
-
-    function renderMathIn(element) {
-      if (window.renderMathInElement && element) {
-        renderMathInElement(element, katexConfig);
-      }
-    }
-
-    function updateScoreStats() {
-      let totalAnswered = 0;
-      let totalScore = 0;
-
-      Object.entries(userAnswers).forEach(([idx, record]) => {
-        if (record && record.answered) {
-          totalAnswered++;
-          const q = questions[parseInt(idx, 10)];
-          if (q && String(record.selected).trim().toLowerCase() === String(q.correct).trim().toLowerCase()) {
-            totalScore++;
-          }
-        }
-      });
-
-      document.getElementById('score-display').innerText = `Score: ${totalScore} | Answered: ${totalAnswered}`;
-    }
 
     async function initApp() {
       try {
@@ -173,6 +152,7 @@
         }
 
         if (questions.length > 0) {
+          // Restore last saved question position if available
           const savedIndex = localStorage.getItem('mcq_last_index');
           if (savedIndex !== null) {
             const idx = parseInt(savedIndex, 10);
@@ -185,68 +165,64 @@
           document.getElementById('question-container').innerText = "No questions found in quiz_data.json.";
         }
       } catch (err) {
-        document.getElementById('question-container').innerText = "Failed to load quiz_data.json. Ensure files are served over a local server.";
+        document.getElementById('question-container').innerText = "Failed to load questions. Ensure quiz_data.json is in the root directory.";
+      }
+    }
+
+    function renderMathIn(element) {
+      if (window.renderMathInElement && element) {
+        renderMathInElement(element, katexConfig);
       }
     }
 
     function loadQuestion() {
       const q = questions[currentIndex];
-      const answerRecord = userAnswers[currentIndex] || null;
-      selectedOption = answerRecord ? answerRecord.selected : null;
+      selectedOption = null;
+      hasAnsweredCurrent = false;
 
+      // Save current question index to LocalStorage
       localStorage.setItem('mcq_last_index', currentIndex);
 
       document.getElementById('progress').innerText = `Question ${currentIndex + 1} of ${questions.length}`;
+      document.getElementById('score-display').innerText = `Score: ${score} | Answered: ${answeredCount}`;
       document.getElementById('jump-input').max = questions.length;
-      document.getElementById('jump-input').value = currentIndex + 1;
-      
       document.getElementById('prev-btn').disabled = currentIndex === 0;
       document.getElementById('prev-btn').classList.toggle('opacity-50', currentIndex === 0);
-
-      // Render Question Body and Image
+      document.getElementById('jump-input').value = currentIndex + 1;
+      
       const qContainer = document.getElementById('question-container');
+      
+      // Build Question Content
       let qHtml = `<span class="font-bold text-indigo-400 mr-2">${q.id}.</span>${q.question}`;
       
+      // Render Diagram Image if present in JSON (e.g. Q573)
       if (q.image) {
         qHtml += `<div class="q-image-container">
-                    <img src="${q.image}" alt="Diagram for Q${q.id}" onerror="this.style.display='none'" />
+                    <img src="${q.image}" alt="Diagram for Q${q.id}" />
                   </div>`;
       }
-      qContainer.innerHTML = qHtml;
-      renderMathIn(qContainer);
 
-      // Render Options
+      qContainer.innerHTML = qHtml;
+      
       const optionsContainer = document.getElementById('options-container');
       optionsContainer.innerHTML = '';
 
       Object.entries(q.options).forEach(([key, val]) => {
         const btn = document.createElement('button');
-        btn.id = `opt-${key}`;
         btn.className = `w-full text-left p-3 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700/50 transition flex items-center space-x-3 option-btn`;
         btn.onclick = () => selectOption(key, btn);
         btn.innerHTML = `<span class="font-bold text-indigo-400 uppercase w-6">${key})</span> <span class="option-content">${val}</span>`;
         optionsContainer.appendChild(btn);
       });
-      renderMathIn(optionsContainer);
 
-      // Handle Answer State
-      const submitBtn = document.getElementById('submit-btn');
-      const expBox = document.getElementById('explanation-box');
+      document.getElementById('submit-btn').disabled = true;
+      document.getElementById('submit-btn').classList.remove('hidden');
+      document.getElementById('explanation-box').classList.add('hidden');
 
-      if (answerRecord && answerRecord.answered) {
-        showEvaluation(q, answerRecord.selected);
-      } else {
-        submitBtn.disabled = true;
-        submitBtn.classList.remove('hidden');
-        expBox.classList.add('hidden');
-      }
-
-      updateScoreStats();
+      renderMathIn(document.body);
     }
 
     function selectOption(key, element) {
-      if (userAnswers[currentIndex]?.answered) return;
-
       selectedOption = key;
       document.querySelectorAll('.option-btn').forEach(btn => {
         btn.classList.remove('border-indigo-500', 'bg-indigo-950/40');
@@ -256,50 +232,32 @@
     }
 
     function checkAnswer() {
-      if (!selectedOption) return;
-
-      userAnswers[currentIndex] = {
-        selected: selectedOption,
-        answered: true
-      };
-
       const q = questions[currentIndex];
-      showEvaluation(q, selectedOption);
-      updateScoreStats();
-    }
+      if (hasAnsweredCurrent) return;
+      const isCorrect = selectedOption === q.correct;
+      hasAnsweredCurrent = true;
+      answeredCount++;
+      if (isCorrect) score++;
+      localStorage.setItem('mcq_score', score);
+      localStorage.setItem('mcq_answered', answeredCount);
+      document.getElementById('score-display').innerText = `Score: ${score} | Answered: ${answeredCount}`;
 
-    function showEvaluation(q, chosenKey) {
-      const isCorrect = String(chosenKey).trim().toLowerCase() === String(q.correct).trim().toLowerCase();
+      document.getElementById('submit-btn').classList.add('hidden');
       const statusEl = document.getElementById('result-status');
-
-      // Lock buttons and highlight
-      document.querySelectorAll('.option-btn').forEach(btn => {
-        btn.disabled = true;
-        btn.classList.remove('border-indigo-500', 'bg-indigo-950/40', 'hover:bg-slate-700/50');
-      });
-
-      const chosenBtn = document.getElementById(`opt-${chosenKey}`);
-      const correctBtn = document.getElementById(`opt-${q.correct.toLowerCase()}`);
-
+      
       if (isCorrect) {
-        if (chosenBtn) chosenBtn.classList.add('border-emerald-500', 'bg-emerald-950/40');
         statusEl.innerText = "✓ Correct!";
         statusEl.className = "text-lg font-bold mb-2 text-emerald-400";
       } else {
-        if (chosenBtn) chosenBtn.classList.add('border-rose-500', 'bg-rose-950/40');
-        if (correctBtn) correctBtn.classList.add('border-emerald-500', 'bg-emerald-950/40');
         statusEl.innerText = `✗ Incorrect (Correct Answer: ${q.correct.toUpperCase()})`;
         statusEl.className = "text-lg font-bold mb-2 text-rose-400";
       }
 
-      document.getElementById('submit-btn').classList.add('hidden');
-      
-      const expBox = document.getElementById('explanation-box');
-      const expText = document.getElementById('explanation-text');
-      expText.innerHTML = q.explanation;
-      expBox.classList.remove('hidden');
+      const expBox = document.getElementById('explanation-text');
+      expBox.innerHTML = q.explanation;
+      document.getElementById('explanation-box').classList.remove('hidden');
 
-      renderMathIn(expBox);
+      renderMathIn(document.getElementById('explanation-box'));
     }
 
     function nextQuestion() {
@@ -307,23 +265,20 @@
         currentIndex++;
         loadQuestion();
       } else {
-        alert("You have completed all questions in this set.");
+        alert("Congratulations! You have completed all questions in this test set.");
       }
     }
 
     function previousQuestion() {
-      if (currentIndex > 0) {
-        currentIndex--;
-        loadQuestion();
-      }
+      if (currentIndex > 0) { currentIndex--; loadQuestion(); }
     }
 
     function resetProgress() {
-      if (confirm('Reset score and clear progress?')) {
+      if (confirm('Reset score and saved position?')) {
         localStorage.removeItem('mcq_last_index');
-        userAnswers = {};
-        currentIndex = 0;
-        loadQuestion();
+        localStorage.removeItem('mcq_score');
+        localStorage.removeItem('mcq_answered');
+        score = 0; answeredCount = 0; currentIndex = 0; loadQuestion();
       }
     }
 
@@ -333,7 +288,7 @@
         currentIndex = inputVal - 1;
         loadQuestion();
       } else {
-        alert(`Please enter a number between 1 and ${questions.length}.`);
+        alert(`Please enter a question number between 1 and ${questions.length}.`);
       }
     }
 
