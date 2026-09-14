@@ -13,10 +13,10 @@
 .options{display:flex;flex-direction:column;gap:9px}.opt{width:100%;display:flex;align-items:flex-start;gap:10px;text-align:left;padding:13px 14px;border:1px solid var(--border);border-radius:10px;background:#1e293b;color:var(--text);cursor:pointer;line-height:1.45}.opt:hover:not(.locked){background:#293548}.opt.selected{border-color:#818cf8;background:#312e81}.opt.correct{border-color:var(--green);background:#064e3b;color:#a7f3d0}.opt.wrong{border-color:var(--red);background:#7f1d1d;color:#fecaca}.optkey{width:26px;flex:0 0 26px;font-weight:850;color:#a5b4fc}.correct .optkey{color:#6ee7b7}.wrong .optkey{color:#fca5a5}
 .special-block{margin:0 0 16px;background:var(--card2);border:1px solid var(--border);border-radius:11px;overflow:hidden}.special-title{padding:10px 13px;background:#25334a;color:#a5b4fc;font-size:.78rem;font-weight:850;text-transform:uppercase;letter-spacing:.04em}.statement-list{padding:0}.statement{display:grid;grid-template-columns:38px 1fr;gap:8px;padding:11px 13px;border-top:1px solid var(--border);line-height:1.5}.statement-key{font-weight:850;color:#818cf8}.statement-text{color:var(--text)}
 .matching-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:0 0 16px}.match-panel{background:var(--card2);border:1px solid var(--border);border-radius:10px;overflow:hidden}.match-head{padding:10px 13px;background:#25334a;color:#a5b4fc;font-weight:850;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}.match-row{display:grid;grid-template-columns:34px 1fr;gap:8px;padding:10px 13px;border-top:1px solid var(--border);line-height:1.45}.match-key{font-weight:850;color:#818cf8}.match-value{color:var(--text)}
-.order-list{display:flex;flex-direction:column;gap:8px;margin:0 0 16px}.order-item{display:flex;gap:10px;align-items:flex-start;padding:11px 13px;background:var(--card2);border:1px solid var(--border);border-radius:9px}.order-key{font-weight:850;color:#818cf8;min-width:28px}.order-text{line-height:1.45}.table-wrap{overflow:auto;margin-top:12px}.data-table{width:100%;border-collapse:collapse;font-size:.86rem;min-width:440px}.data-table th,.data-table td{border:1px solid var(--border);padding:8px 9px;text-align:left;vertical-align:top;line-height:1.4}.data-table th{background:#25334a;color:#c7d2fe;font-weight:800}.data-table td{background:#172033}
+.pair-list{margin:0 0 16px;background:var(--card2);border:1px solid var(--border);border-radius:11px;overflow:hidden}.pair-head,.pair-row{display:grid;grid-template-columns:42px 1fr 1fr;gap:10px;align-items:start}.pair-head{padding:10px 13px;background:#25334a;color:#c7d2fe;font-size:.78rem;font-weight:850}.pair-row{padding:11px 13px;border-top:1px solid var(--border);line-height:1.45}.pair-num{font-weight:850;color:#818cf8}.pair-value{color:var(--text)}.order-list{display:flex;flex-direction:column;gap:8px;margin:0 0 16px}.order-item{display:flex;gap:10px;align-items:flex-start;padding:11px 13px;background:var(--card2);border:1px solid var(--border);border-radius:9px}.order-key{font-weight:850;color:#818cf8;min-width:28px}.order-text{line-height:1.45}.table-wrap{overflow:auto;margin-top:12px}.data-table{width:100%;border-collapse:collapse;font-size:.86rem;min-width:440px}.data-table th,.data-table td{border:1px solid var(--border);padding:8px 9px;text-align:left;vertical-align:top;line-height:1.4}.data-table th{background:#25334a;color:#c7d2fe;font-weight:800}.data-table td{background:#172033}
 .footer{display:flex;gap:9px;margin-top:18px}.footer .prev{width:32%}.footer .submit{width:68%}.explanation{margin-top:18px;padding:16px;border:1px solid var(--border);border-radius:10px;background:#0b1220}.status{font-size:1.05rem;font-weight:850;margin-bottom:8px}.correct-text{color:#6ee7b7}.wrong-text{color:#fca5a5}.exp-title{font-size:.7rem;text-transform:uppercase;color:var(--muted);font-weight:850;margin-bottom:5px}.exp-body{color:#cbd5e1;line-height:1.65;font-size:.92rem}.explanation img{display:block;max-width:100%;height:auto;margin:12px auto;border-radius:8px}.explanation .next{margin-top:9px}
 .result{text-align:center;padding:8px 0}.result-score{font-size:2.6rem;font-weight:900;color:#a5b4fc;margin:8px 0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}.stat{background:#0b1220;border:1px solid var(--border);border-radius:9px;padding:12px}.stat b{display:block;font-size:1.25rem}.stat span{font-size:.72rem;color:var(--muted)}.result-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.hint{font-size:.75rem;color:var(--muted);margin-top:9px}.source{font-size:.7rem;color:#64748b;margin-top:12px;text-align:right}
-@media(max-width:620px){body{padding:7px}.card{padding:14px;border-radius:11px}.top{flex-direction:column}.controls{justify-content:flex-start;width:100%}.question{font-size:1rem}.matching-grid{grid-template-columns:1fr;gap:9px}.footer{position:sticky;bottom:0;background:linear-gradient(transparent,var(--card) 25%);padding-top:14px}.stats{grid-template-columns:repeat(3,1fr)}.stat{padding:9px}.data-table{min-width:390px}}
+@media(max-width:620px){.pair-head,.pair-row{grid-template-columns:32px 1fr 1fr;gap:7px}.pair-head{font-size:.72rem}.pair-row{padding:10px 9px}}@media(max-width:620px){body{padding:7px}.card{padding:14px;border-radius:11px}.top{flex-direction:column}.controls{justify-content:flex-start;width:100%}.question{font-size:1rem}.matching-grid{grid-template-columns:1fr;gap:9px}.footer{position:sticky;bottom:0;background:linear-gradient(transparent,var(--card) 25%);padding-top:14px}.stats{grid-template-columns:repeat(3,1fr)}.stat{padding:9px}.data-table{min-width:390px}}
 .question img.question-image{max-height:520px;object-fit:contain}
 .image-error{margin:12px 0;padding:12px;border:1px dashed #f59e0b;border-radius:8px;background:#451a03;color:#fde68a;font-size:.82rem;line-height:1.45}
 .explanation-images{margin-top:12px}
@@ -173,6 +173,22 @@ function renderMatching(q){
 }
 function renderOrdering(q){
   if(!Array.isArray(q.items))return;const list=document.createElement('div');list.className='order-list';q.items.forEach(x=>{const r=document.createElement('div');r.className='order-item';r.innerHTML=`<div class="order-key">${esc(x.id)}</div><div class="order-text">${esc(x.text)}</div>`;list.appendChild(r)});$('question-container').appendChild(list);if(q.ordering_instruction){const d=document.createElement('div');d.className='instruction';d.textContent=q.ordering_instruction;$('question-container').appendChild(d)}}
+function renderPairs(q){
+  if(!Array.isArray(q.pairs)||!q.pairs.length)return;
+  const wrap=document.createElement('div');
+  wrap.className='pair-list';
+  const head=document.createElement('div');
+  head.className='pair-head';
+  head.innerHTML='<div>No.</div><div>Peak</div><div>Mountains</div>';
+  wrap.appendChild(head);
+  q.pairs.forEach(x=>{
+    const row=document.createElement('div');
+    row.className='pair-row';
+    row.innerHTML=`<div class="pair-num">${esc(x.id)}.</div><div class="pair-value">${esc(x.left)}</div><div class="pair-value">${esc(x.right)}</div>`;
+    wrap.appendChild(row);
+  });
+  $('question-container').appendChild(wrap);
+}
 function renderBlocks(q){
   const holder=$('explanation-blocks');holder.innerHTML='';if(!Array.isArray(q.explanation_blocks))return;
   q.explanation_blocks.forEach(b=>{if(b.type!=='table')return;const wrap=document.createElement('div');wrap.className='table-wrap';const t=document.createElement('table');t.className='data-table';if(b.columns){const thead=document.createElement('thead'),tr=document.createElement('tr');b.columns.forEach(c=>{const th=document.createElement('th');th.textContent=c;tr.appendChild(th)});thead.appendChild(tr);t.appendChild(thead)}const tb=document.createElement('tbody');(b.rows||[]).forEach(row=>{const tr=document.createElement('tr');row.forEach(v=>{const td=document.createElement('td');td.textContent=v;tr.appendChild(td)});tb.appendChild(tr)});t.appendChild(tb);wrap.appendChild(t);holder.appendChild(wrap)})
@@ -189,6 +205,7 @@ function createQuestionContent(q){
   if(q.type==='statement_combination'||q.type==='assertion_statement') renderStatements(q);
   if(q.type==='matching') renderMatching(q);
   if(q.type==='ordering') renderOrdering(q);
+  if(q.type==='pair_selection') renderPairs(q);
 
   if(q.type==='pair_selection'){
     const d=document.createElement('div');
