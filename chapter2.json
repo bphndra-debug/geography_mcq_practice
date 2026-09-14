@@ -1,0 +1,1114 @@
+{
+  "schema_version": "2.0",
+  "title": "Mountain, Plateau and Plain Area",
+  "source": "MCQ Ch2.pdf",
+  "total_questions": 31,
+  "question_types": {
+    "single_choice": "Standard four/five-option MCQ",
+    "statement_combination": "Numbered/lettered statements followed by combination/code options",
+    "matching": "Two-column matching question",
+    "ordering": "Arrange items by the requested order",
+    "pair_selection": "Identify correctly matched pairs"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "statement_combination",
+      "question": "Which of the following statements regarding Himalayas are correct?",
+      "statements": [
+        {
+          "id": "I",
+          "text": "Himalayas are geologically young and structurally fold mountains."
+        },
+        {
+          "id": "II",
+          "text": "They are wide in Kashmir and narrow in the North-eastern states."
+        },
+        {
+          "id": "III",
+          "text": "The fold of Great Himalayas are asymmetrical in nature and their core is composed of granite."
+        },
+        {
+          "id": "IV",
+          "text": "The longitudinal valleys lying between Greater and Lesser Himalayas are Known as Duns."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "II, III and IV"
+        },
+        {
+          "id": "b",
+          "text": "I, II and III"
+        },
+        {
+          "id": "c",
+          "text": "I, III and IV"
+        },
+        {
+          "id": "d",
+          "text": "I, II, III and IV"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The Himalayas are young fold mountains formed by convergence of two tectonic plates. The folds of greater Himalayas are asymmetrical in nature and their core is composed of granite. The Himalayas are wide in Kashmir and narrow in North-eastern states. The Duns are longitudinal valleys lying between lesser Himalayas and Shiwalik. Hence, statement-IV is incorrect, while rest statements are correct.",
+      "source_page": 1
+    },
+    {
+      "id": 2,
+      "type": "single_choice",
+      "question": "From north to south, Western Ghats are locally known as -",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sahyadri-Nilgiri-Anaimalai-Cardamom Hills"
+        },
+        {
+          "id": "b",
+          "text": "Sahyadri- Anaimalai- Nilgiri- Cardamom Hills"
+        },
+        {
+          "id": "c",
+          "text": "Nilgiri- Sahyadri- Cardamom Hills- Anaimalai"
+        },
+        {
+          "id": "d",
+          "text": "Sahyadri- Nilgiri- Cardamom Hills- Anaimalai"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Western Ghats are locally known as different names, from north to south, it is known Sahyadri (in Maharashtra), Nilgiri hills (in Karnataka and Tamil Nadu) and Anaimalai hills and Cardamom hills in Kerala.",
+      "source_page": 1
+    },
+    {
+      "id": 3,
+      "type": "single_choice",
+      "question": "The outer-most range of the Himalayas is called as",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shiwalks"
+        },
+        {
+          "id": "b",
+          "text": "Kumaon Himalayas"
+        },
+        {
+          "id": "c",
+          "text": "Kashmir Himalayas"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "a",
+      "explanation": "The outer most range of Himalayas are called as Shivalik range while inner most range are called Greater Himalayas and middle range of Himalayas are called lesser Himalayas.",
+      "source_page": 1
+    },
+    {
+      "id": 4,
+      "type": "statement_combination",
+      "question": "Which of the following is /are correct statements? In Maharashtra, in order from north, the major hill ranges on the plateau and the river basins to their south are as follows:",
+      "statements": [
+        {
+          "id": "a",
+          "text": "Tapi Purna basin to the south of the Satpura mountain range."
+        },
+        {
+          "id": "b",
+          "text": "Godavari river valley to the south of Satmala Ajintha hills."
+        },
+        {
+          "id": "c",
+          "text": "Harishchandra Balaghat hill and Bhima river basin to its south."
+        },
+        {
+          "id": "d",
+          "text": "Shambhu Mahadeva hills and Krishna river basin to its south."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only a"
+        },
+        {
+          "id": "b",
+          "text": "All are correct"
+        },
+        {
+          "id": "c",
+          "text": "Only a and b"
+        },
+        {
+          "id": "d",
+          "text": "Only a and c"
+        }
+      ],
+      "correct": "b",
+      "explanation": "All statements are correct because (a) Tapi Purna basin is situated south of Satpura mountain range. (b) Godavari river valley to the south of Satmala Ajintha hills. (c) Harishchandra Balaghat hill is situated north of Bhima river basin. (d) Shambhu Mahadeva hills is situated north of Krishna river basin.",
+      "source_page": 1
+    },
+    {
+      "id": 5,
+      "type": "statement_combination",
+      "question": "Consider the following statements: How many of the statements given above the correct?",
+      "statements": [
+        {
+          "id": "1",
+          "text": "Amarkantak Hills are at the confluence of Vindhya and Sahyadri Ranges."
+        },
+        {
+          "id": "2",
+          "text": "Biligirirangan Hills constitute the easternmost part of Satpura Range."
+        },
+        {
+          "id": "3",
+          "text": "Seshachalam Hills constitute the southernmost part of Western Ghats."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only one"
+        },
+        {
+          "id": "b",
+          "text": "Only two"
+        },
+        {
+          "id": "c",
+          "text": "All three"
+        },
+        {
+          "id": "d",
+          "text": "None"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Amarkantak is at confluence of Vindhya and Satpura Range. The Billirangan hills are located at the North-west of the Western Ghats and Westernmost edge of the Eastern Ghats. Seshachalam Hills are part of eastern Ghats. Thus none the statements are correct.",
+      "source_page": 1
+    },
+    {
+      "id": 6,
+      "type": "single_choice",
+      "question": "On which of the flowing hills-range is 'Doddabetta' peak situated?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cardamom Hills"
+        },
+        {
+          "id": "b",
+          "text": "Anaimalai Hills"
+        },
+        {
+          "id": "c",
+          "text": "Nallamala Hills"
+        },
+        {
+          "id": "d",
+          "text": "Nilgiri Hills"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Doddabetta peak is situated in Nilgiri hills. It is second highest peak of Western Ghats after Anaimudi in Animalai Hills. Doddabetta peak is situated in state of Tamil Nadu. Nallamala Hills is situated in Western Ghats. Cardamom Hills is situated in Kerala.",
+      "source_page": 1
+    },
+    {
+      "id": 7,
+      "type": "single_choice",
+      "question": "Which of the following geographical series is not related to Vindhyan system ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bhander Series"
+        },
+        {
+          "id": "b",
+          "text": "Bijawar Series"
+        },
+        {
+          "id": "c",
+          "text": "Khondalite Series"
+        },
+        {
+          "id": "d",
+          "text": "Kaimur Series"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Khondalite Series is not related to Vindhyan system. Bhander Series is western part of Vindhyan system. Bijwar series of Vindhyas is located between Chhatarpur & Panna district of Madhya Pradesh. Kaimur series of Vindhyas stretches over Bundelkhand (UP) and Baghelkhand (MP).",
+      "source_page": 1
+    },
+    {
+      "id": 8,
+      "type": "matching",
+      "question": "Match List I with List II",
+      "matching": {
+        "left_label": "List-I (Doabs)",
+        "right_label": "List-II (Rivers)",
+        "left": [
+          {
+            "id": "A",
+            "text": "Bist Doab"
+          },
+          {
+            "id": "B",
+            "text": "Chej Doab"
+          },
+          {
+            "id": "C",
+            "text": "Bari Doab"
+          },
+          {
+            "id": "D",
+            "text": "Sind Doab"
+          }
+        ],
+        "right": [
+          {
+            "id": "i",
+            "text": "Between Chenab and Jhelum"
+          },
+          {
+            "id": "ii",
+            "text": "Between Beas and Ravi"
+          },
+          {
+            "id": "iii",
+            "text": "Between Jhelum and Indus"
+          },
+          {
+            "id": "iv",
+            "text": "Between Beas and Sutlej"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "A-i, B-ii, C-iii, D-iv"
+        },
+        {
+          "id": "b",
+          "text": "A-iv, B-i, C-iii, D-ii"
+        },
+        {
+          "id": "c",
+          "text": "A-iv, B-ii, C-iii, D-i"
+        },
+        {
+          "id": "d",
+          "text": "A-iv, B-i, C-ii, D-iii"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Doabs and rivers: Bist Doab – Between Beas and Sutlej. Chaj Doab – Between Chenab and Jhelum. Bari Doab – Between Beas and Ravi. Sind Doab – Between Jhelum and Indus.",
+      "source_page": 2
+    },
+    {
+      "id": 9,
+      "type": "statement_combination",
+      "question": "Consider the following statements.",
+      "statements": [
+        {
+          "id": "A",
+          "text": "The Kashmir Himalayas are famous for ‘Karewa’ formations"
+        },
+        {
+          "id": "B",
+          "text": "Nalagarh Dun is the largest of all Duns."
+        },
+        {
+          "id": "C",
+          "text": "Namcha Barwa mountain peak is located in Arunachal Himalayas."
+        },
+        {
+          "id": "D",
+          "text": "‘Valley of Flower’ is situated in Himachal and Uttarakhand Himalayas."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "A, B, C and D are correct."
+        },
+        {
+          "id": "b",
+          "text": "B and C are correct."
+        },
+        {
+          "id": "c",
+          "text": "A, C and D are correct."
+        },
+        {
+          "id": "d",
+          "text": "A, B and C are correct."
+        },
+        {
+          "id": "e",
+          "text": "Question not attempt."
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kashmir Himalaya is famous for karewa formation which is good for production of Zafran (a special variety of saffron). Longitudinal valleys found in shiwalik range are known as Doons. Dehradun is largest doon. Other important Doon are Kotli, Patli etc. Namcha Barwa peak is located in Arunachal Himalaya valley of flowers located in Himachal and Uttarakhand Himalaya. It is also a National park. Thus, statement A, C and D are correct.",
+      "source_page": 2
+    },
+    {
+      "id": 10,
+      "type": "single_choice",
+      "question": "A mountain range in the north of Narmada river and running parallel to it is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ajanta Range"
+        },
+        {
+          "id": "b",
+          "text": "Satpura Range"
+        },
+        {
+          "id": "c",
+          "text": "Rajmahal Range"
+        },
+        {
+          "id": "d",
+          "text": "Vindhya Range"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Vindhya range is a mountain range in the north of Narmada river and running parallel to it. Satpura range is at south of Narmada river.",
+      "source_page": 2
+    },
+    {
+      "id": 11,
+      "type": "statement_combination",
+      "question": "Observe the following statements:",
+      "statements": [
+        {
+          "id": "a",
+          "text": "Mountain located between Pravara and Kukadi river is Harishchandra mountain"
+        },
+        {
+          "id": "b",
+          "text": "River Manjira flows on Balaghat Plateau."
+        },
+        {
+          "id": "c",
+          "text": "Satmala and Ajantha mountain ranges are between Tapi and Godavari river valleys."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Statements (a) and (b) are correct"
+        },
+        {
+          "id": "b",
+          "text": "Statements (b) and (c) are correct"
+        },
+        {
+          "id": "c",
+          "text": "Statements (a) and (c) are correct"
+        },
+        {
+          "id": "d",
+          "text": "All the above statements are correct"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Harishchandra mountain is located between Pravara and Kukadi river. River Manjira flows on Balaghat plateau. Satmala and Ajanta mountain ranges are between Tapi and Godavari river valleys.",
+      "source_page": 2
+    },
+    {
+      "id": 12,
+      "type": "single_choice",
+      "question": "Which city of Bihar is surrounded by five hills?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gaya"
+        },
+        {
+          "id": "b",
+          "text": "Patna"
+        },
+        {
+          "id": "c",
+          "text": "Bhagalpur"
+        },
+        {
+          "id": "d",
+          "text": "Bodhgaya"
+        },
+        {
+          "id": "e",
+          "text": "None of the above/More than one of the above"
+        }
+      ],
+      "correct": "e",
+      "explanation": "The city of Rajgir of Bihar is surrounded by 5 hills viz. Ratnagiri, Swarngiri, Vaibhavgiri, Vipulgiri/Vipulachal and Udaygiri.",
+      "source_page": 2
+    },
+    {
+      "id": 13,
+      "type": "single_choice",
+      "question": "Which range acts as a water divide between Yamuna and son?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bhander"
+        },
+        {
+          "id": "b",
+          "text": "Kaimur"
+        },
+        {
+          "id": "c",
+          "text": "Maikal"
+        },
+        {
+          "id": "d",
+          "text": "Mukundara"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The Kaimur Range acts as a water divide between Yamuna and Son.",
+      "source_page": 2
+    },
+    {
+      "id": 14,
+      "type": "single_choice",
+      "question": "A part between of Himalayas Indus and Sutlej is called-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assam Himalayas"
+        },
+        {
+          "id": "b",
+          "text": "Punjab Himalayas"
+        },
+        {
+          "id": "c",
+          "text": "Nepal Himalayas"
+        },
+        {
+          "id": "d",
+          "text": "Kumaon Himalayas"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Sir Sidney Burrard has divided Himalayas into 4 transverse regions, viz. (1) Punjab Himalaya extends from Indus to Sutlej covering the distance of 560 km, (2) Kumaun Himalaya which is 320 km long between Sutlej and Kali, (3) The Nepal Himalaya lies between Kali and Tista with 800 km length, and (4) Assam Himalayas covering 720 km long from Tista to Dihang.",
+      "source_page": 2
+    },
+    {
+      "id": 15,
+      "type": "single_choice",
+      "question": "The three mountain ranges which determine the border between India and Myanmar are:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khasi, Patkai and Arakan-Yoma"
+        },
+        {
+          "id": "b",
+          "text": "Akai mountain range"
+        },
+        {
+          "id": "c",
+          "text": "Great Dividing Range"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "d",
+      "explanation": "The mountain ranges which determine the border between Indian and Myanmar include the Arakan-Yoma (Rakhine), Naga, Chin and the Lushai (Mizo) Hills. Khasi mountain range is a part of Patkai mountain range but it is spread in the state of Meghalaya not at the border of India and Myanmar. Sometimes these three ranges are known as - Purvanchal which includes Patkai Hills, Naga Hills and Mizo Hills.",
+      "source_page": 2
+    },
+    {
+      "id": 16,
+      "type": "single_choice",
+      "question": "In which district 'Madheshwar Pahad' is located in Chhattisgarh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Surajpur"
+        },
+        {
+          "id": "b",
+          "text": "Jashpur"
+        },
+        {
+          "id": "c",
+          "text": "Sarguja"
+        },
+        {
+          "id": "d",
+          "text": "Kanker"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Madheshwar Pahad is located in Jashpur district of Chhattisgarh. It is on the north bank of the river Narmada. This mountain has the distinction of being the world's largest Shivling. It is being worshipped by villagers.",
+      "source_page": 3
+    },
+    {
+      "id": 17,
+      "type": "matching",
+      "question": "Correctly match the following :",
+      "matching": {
+        "left_label": "List-I",
+        "right_label": "List-II",
+        "left": [
+          {
+            "id": "A",
+            "text": "North-Western Himalayas"
+          },
+          {
+            "id": "B",
+            "text": "Himanchal and Uttarakhand Himalaya"
+          },
+          {
+            "id": "C",
+            "text": "Darjeeling and Sikkim Himalaya"
+          },
+          {
+            "id": "D",
+            "text": "Arunachal Himalaya"
+          }
+        ],
+        "right": [
+          {
+            "id": "1",
+            "text": "Zaskar"
+          },
+          {
+            "id": "2",
+            "text": "Shivalik Range"
+          },
+          {
+            "id": "3",
+            "text": "Namcha Barwa"
+          },
+          {
+            "id": "4",
+            "text": "Lepcha Tribe"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "A-1, B-2, C-3, D-4"
+        },
+        {
+          "id": "b",
+          "text": "A-2, B-1, C-3, D-4"
+        },
+        {
+          "id": "c",
+          "text": "A-2, B-1, C-4, D-3"
+        },
+        {
+          "id": "d",
+          "text": "A-1, B-2, C-4, D-3"
+        }
+      ],
+      "correct": "d",
+      "explanation": "The correct match is as below - North-Western Himalayas — Zaskar; Himanchal and Uttarakhand Himalaya — Shivalik Range; Darjeeling and Sikkim Himalaya — Lepcha Tribe; Arunachal Himalaya — Namcha Barwa.",
+      "source_page": 3
+    },
+    {
+      "id": 18,
+      "type": "pair_selection",
+      "question": "Consider the following pairs: Which of the pairs given above is/are correctly matched?",
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Namcha Barwa",
+          "right": "Garhwal Himalaya"
+        },
+        {
+          "id": "2",
+          "left": "Nanda Devi",
+          "right": "Kumaon Himalaya"
+        },
+        {
+          "id": "3",
+          "left": "Nokrek",
+          "right": "Sikkim Himalaya"
+        }
+      ],
+      "instruction": "Select the correct option.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 and 2"
+        },
+        {
+          "id": "b",
+          "text": "2 only"
+        },
+        {
+          "id": "c",
+          "text": "1 and 3"
+        },
+        {
+          "id": "d",
+          "text": "3 only"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Namcha Barwa is a mountain in Arunachal Pradesh and not in Garhwal Himalaya. It is considered as the Eastern point of the Himalayas. Nanda Devi peak is in the state of Uttarakhand. It is a part of the Garhwal Himalayas. The Nokrek is located in the northeast of India on the Tura Range, which forms part of the Meghalaya Plateau. Nokrek is the highest peak of the Garo hills.",
+      "source_page": 3
+    },
+    {
+      "id": 19,
+      "type": "ordering",
+      "question": "Arrange the main peaks of Western ghats on the basis of their higher elevation to lower elevation.",
+      "items": [
+        {
+          "id": "I",
+          "text": "Doddabetta"
+        },
+        {
+          "id": "II",
+          "text": "Ooty"
+        },
+        {
+          "id": "III",
+          "text": "Anaimudi"
+        },
+        {
+          "id": "IV",
+          "text": "Puspagiri"
+        }
+      ],
+      "ordering_instruction": "Arrange from higher elevation to lower elevation.",
+      "options": [
+        {
+          "id": "a",
+          "text": "III, II, I, IV"
+        },
+        {
+          "id": "b",
+          "text": "III, I, II, IV"
+        },
+        {
+          "id": "c",
+          "text": "I, II, III, IV"
+        },
+        {
+          "id": "d",
+          "text": "IV, III, II, I"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The correct descending order of the elevation of the given peaks of western Ghats is as follows—Anaimudi (2695 m) → Doddabetta (2637 m) → Ooty (2240 m) → Puspagiri (1712 m).",
+      "source_page": 3
+    },
+    {
+      "id": 20,
+      "type": "statement_combination",
+      "question": "Consider the following statements about Peninsular plateau.",
+      "statements": [
+        {
+          "id": "1",
+          "text": "Rising from the height of 150 m above the river plains up to an elevation of 600-900 m is the irregular triangle known as the Peninsular plateau."
+        },
+        {
+          "id": "2",
+          "text": "Delhi ridge in the northwest, the Rajmahal hill in the east, Gir range in the west and the Cardamom hills in the south constitute the outer extent of the Peninsular plateau."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "(1) only"
+        },
+        {
+          "id": "b",
+          "text": "(2) only"
+        },
+        {
+          "id": "c",
+          "text": "Both (1) and (2)"
+        },
+        {
+          "id": "d",
+          "text": "Neither (1) nor (2)"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Rising from the height of 150 m above the river plains up to an elevation of 600-900 m is the irregular triangle known as the Peninsular plateau. Hence, Statement 1 is correct. Delhi ridge in the northwest, the Rajmahal hill in the east, Gir range in the west and the Cardamom hills in the south constitute the outer extent of the Peninsular plateau. Hence, Statement 2 is also correct.",
+      "source_page": 3
+    },
+    {
+      "id": 21,
+      "type": "single_choice",
+      "question": "In the physical map of India, Maharashtra plateau is shown by which of the following colours?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dark green"
+        },
+        {
+          "id": "b",
+          "text": "Green"
+        },
+        {
+          "id": "c",
+          "text": "Yellow"
+        },
+        {
+          "id": "d",
+          "text": "Brown"
+        }
+      ],
+      "correct": "c",
+      "explanation": "In the physical map of India, Maharashtra plateau is shown by yellow colour. Yellow colour is used to show plateaus. Dark Green Color – Dense forest. Green Color – Agricultural land. Brown Color – Mountains.",
+      "source_page": 3
+    },
+    {
+      "id": 22,
+      "type": "single_choice",
+      "question": "Deccan Traps are largely made of",
+      "options": [
+        {
+          "id": "a",
+          "text": "Flow of basalt"
+        },
+        {
+          "id": "b",
+          "text": "River deposit"
+        },
+        {
+          "id": "c",
+          "text": "Limestone"
+        },
+        {
+          "id": "d",
+          "text": "Lava flow alternating with sedimentary deposits"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Deccan Traps are largely made of flow of Basalt. The Deccan trap covers a significant part of western peninsula in the India in states of Maharashtra, Goa and Gujarat Southern Rajasthan. Black soil made up of Basaltic rocks is good for 'cotton' cultivation. It is also known as Black cotton soil or Regur.",
+      "source_page": 3
+    },
+    {
+      "id": 23,
+      "type": "single_choice",
+      "question": "A plateau located in Vindhya Range is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deccan Plateau"
+        },
+        {
+          "id": "b",
+          "text": "Chhotanagpur Plateau"
+        },
+        {
+          "id": "c",
+          "text": "Telengana Plateau"
+        },
+        {
+          "id": "d",
+          "text": "Malwa Plateau"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Malwa plateau is located in Vindhya range. Malwa plateau occupies region in Madhya Pradesh and south eastern Rajasthan. This plateau has two systems of drainage one towards Arabian sea (The Narmada, the Tapi and the Mahi) and the other towards the Bay of Bengal (Chambal and Betwa joining the Yamuna).",
+      "source_page": 3
+    },
+    {
+      "id": 24,
+      "type": "single_choice",
+      "question": "Which one of the following geographical regions is the oldest in the country?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Himalayan Mountainous Region"
+        },
+        {
+          "id": "b",
+          "text": "Great Plains of North India"
+        },
+        {
+          "id": "c",
+          "text": "Indian Peninsular Plateau"
+        },
+        {
+          "id": "d",
+          "text": "Eastern Coastal Plains"
+        },
+        {
+          "id": "e",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "c",
+      "explanation": "The Indian Peninsular Plateau is one of the oldest in the country which is a triangle-shaped plateau that encompasses the majority of areas of peninsular India. Its northern fringes are the Chhota Nagpur Plateau and Satpura Range Mountains, known as the Eastern and Western Ghats, create the other borders of the triangle and are joined at its summit by the Anaimalai, Nilgiri, and Cardamom hills.",
+      "source_page": 4
+    },
+    {
+      "id": 25,
+      "type": "statement_combination",
+      "question": "What are not true about the Peninsular Plateau?",
+      "statements": [
+        {
+          "id": "i",
+          "text": "Height of this plateau is approximately 1000-1500 meters"
+        },
+        {
+          "id": "ii",
+          "text": "Height of this plateau generally decreases from West to East"
+        },
+        {
+          "id": "iii",
+          "text": "On its East there are Gir Ranges and on West there are Rajmahal Hills"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "(i) and (ii)"
+        },
+        {
+          "id": "b",
+          "text": "(ii) and (iii)"
+        },
+        {
+          "id": "c",
+          "text": "(i) and (iii)"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Average height of peninsular plateau is about 600 m. Though it rises to 1000 m in the south but dips to 500 m in the north. Hence, 1st statement is incorrect. As indicated by the flow of its major rivers, the general slope of peninsular plateau is from west to east. Hence, 2nd statement is correct. Gir Ranges are in the west of peninsular plateau and Rajmahal Hills are in the east side of it, hence 3rd statement is also incorrect.",
+      "source_page": 4
+    },
+    {
+      "id": 26,
+      "type": "matching",
+      "question": "Match the following :",
+      "matching": {
+        "left_label": "Column-I",
+        "right_label": "Column-II",
+        "left": [
+          {
+            "id": "A",
+            "text": "Dome-shaped Plateau"
+          },
+          {
+            "id": "B",
+            "text": "Volcanic Plateau"
+          },
+          {
+            "id": "C",
+            "text": "Step-like Plateau"
+          },
+          {
+            "id": "D",
+            "text": "Piedmont Plateau"
+          }
+        ],
+        "right": [
+          {
+            "id": "1",
+            "text": "Deccan Plateau"
+          },
+          {
+            "id": "2",
+            "text": "Vindhya Plateau"
+          },
+          {
+            "id": "3",
+            "text": "Chota Nagpur Plateau"
+          },
+          {
+            "id": "4",
+            "text": "Shillong Plateau"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "A-1, B-3, C-4, D-2"
+        },
+        {
+          "id": "b",
+          "text": "A-2, B-4, C-3, D-1"
+        },
+        {
+          "id": "c",
+          "text": "A-3, B-1, C-2, D-4"
+        },
+        {
+          "id": "d",
+          "text": "A-4, B-2, C-1, D-3"
+        }
+      ],
+      "correct": "c",
+      "explanation": "The correct match is as follows: Dome Shaped Plateau — Chhota Nagur Plateau; Volcanic Plateau — Deccan Plateau; Step-Like Plateau — Vindhya Plateau; Piedmont Plateau — Shillong Plateau.",
+      "source_page": 4
+    },
+    {
+      "id": 27,
+      "type": "single_choice",
+      "question": "The average height of the Kosi plain from mean sea level is",
+      "options": [
+        {
+          "id": "a",
+          "text": "300 m"
+        },
+        {
+          "id": "b",
+          "text": "150 m"
+        },
+        {
+          "id": "c",
+          "text": "30 m"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "c",
+      "explanation": "The average height of the Kosi plain from mean sea level is 30m. Kosi has its source in Tibet and flows through Tibet, Nepal and India, It's three main tributaries are the Sun Kosi, Arun Kosi and Tamur Kosi. Kosi River is known as sorrow of Bihar due to frequently changing pattern of flow.",
+      "source_page": 4
+    },
+    {
+      "id": 28,
+      "type": "single_choice",
+      "question": "Coastal plain between Mumbai and Goa is",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konkan plain"
+        },
+        {
+          "id": "b",
+          "text": "Coromandal plain"
+        },
+        {
+          "id": "c",
+          "text": "Malabar plain"
+        },
+        {
+          "id": "d",
+          "text": "Kannad plain"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coastal plain between Mumbai and Goa known as Konkan plain. Kannad plain extends from Goa to Mangalore. Malabar plain extends between Mangalore and Kanyakumari. Utkal plain comprise coastal areas of Odisha. Northern Circar-comprise coastal areas of Andhra. Coromandel plain comprise coastal areas of Tamal Nadu.",
+      "source_page": 4
+    },
+    {
+      "id": 29,
+      "type": "statement_combination",
+      "question": "Which of the following statements are correct about Bhabhar Plains?",
+      "statements": [
+        {
+          "id": "a",
+          "text": "The porosity is very high and hence small rivers disappear."
+        },
+        {
+          "id": "b",
+          "text": "The Bhabhar tract is suitable for crops."
+        },
+        {
+          "id": "c",
+          "text": "The inhabitants of the Bhabhar Plains are cattle-keeping Gujjars."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Statements (a) and (b)"
+        },
+        {
+          "id": "b",
+          "text": "Statements (b) and (c)"
+        },
+        {
+          "id": "c",
+          "text": "Statements (a) and (c)"
+        },
+        {
+          "id": "d",
+          "text": "Statements (a), (b) and (c)"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Bhabar plain lies in foothills of Shiwalik range. It is a narrow, porous & northern stretch of the Indo gangetic plain. Many small rivers disappears here. Bhabar plain is not suitable for agriculture and only big trees with large roots thrive in this belt. Statement (A) and (C) are correct about Bhabar plains.",
+      "source_page": 4
+    },
+    {
+      "id": 30,
+      "type": "single_choice",
+      "question": "Which of the following is a desert region?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sindhu area"
+        },
+        {
+          "id": "b",
+          "text": "Gangetic area"
+        },
+        {
+          "id": "c",
+          "text": "Assam area"
+        },
+        {
+          "id": "d",
+          "text": "Central India area"
+        }
+      ],
+      "correct": "a",
+      "explanation": "In the above mentioned options Sindhu area is a desert region.",
+      "source_page": 4
+    },
+    {
+      "id": 31,
+      "type": "single_choice",
+      "question": "Ganga Plain has been described as a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pediplain"
+        },
+        {
+          "id": "b",
+          "text": "Peneplain"
+        },
+        {
+          "id": "c",
+          "text": "Geosyncline"
+        },
+        {
+          "id": "d",
+          "text": "Karst plain"
+        },
+        {
+          "id": "e",
+          "text": "None of the above/More than one of the above"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Ganga Plain can be best described as a geosyncline. Geosyncline means a huge depression. Peneplain means a more or less level land surface produced by erosion over a long period. Pediplain is an extensive plain formed in a desert by the coalescence of neighbouring pediments. Karst plains can be best described as limestone plain.",
+      "source_page": 4
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "subject": "Geography",
+  "chapters": [
+    {
+      "id": "chapter1",
+      "title": "General Introduction",
+      "file": "chapter1.json",
+      "questions": 133
+    },
+    {
+      "id": "chapter2",
+      "title": "Mountain, Plateau and Plain Area",
+      "file": "chapter2.json",
+      "questions": 31
+    }
+  ]
+}
