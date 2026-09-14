@@ -13,6 +13,12 @@
       "title": "Mountain, Plateau and Plain Area",
       "file": "data/chapter2.json",
       "questions": 31
-    }
+    },
+    {
+  "id": "chapter3",
+  "title": "Drainage System",
+  "file": "data/chapter3.json",
+  "questions": 235
+}
   ]
 }
