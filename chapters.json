@@ -5,13 +5,13 @@
     {
       "id": "chapter1",
       "title": "General Introduction",
-      "file": "chapter1.json",
+      "file": "data/chapter1.json",
       "questions": 133
     },
     {
       "id": "chapter2",
       "title": "Mountain, Plateau and Plain Area",
-      "file": "chapter2.json",
+      "file": "data/chapter2.json",
       "questions": 31
     }
   ]
