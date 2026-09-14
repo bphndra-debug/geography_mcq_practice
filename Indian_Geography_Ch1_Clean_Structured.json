@@ -682,7 +682,7 @@
           "id": "B",
           "text": "The extension of India from north to south is approximately more than 7500 km."
         }
-      ]
+      ],
      "explanation_images": [
       "images/q24_1.png",
       "images/q24_2.png"
@@ -2715,8 +2715,7 @@
           "id": "4",
           "text": "Meghalaya"
         }
-      ],
-      "image": "images/q90_india_map.png"
+      ]
     },
     {
       "id": 91,
@@ -2742,7 +2741,7 @@
       ],
       "correct": "a",
       "explanation": "India shares its borders with seven countries. These are Pakistan and Afghanistan in the northwest, China (Tibet), Nepal in the North and Bhutan in the northeast and Bangladesh and Myanmar in the east. India's southern neighbours across the sea consist of the two island countries namely Sri Lanka and Maldives.",
-      "source_page": 10
+      "source_page": 10,
       "image": "images/q91_india_map.png"
     },
     {
