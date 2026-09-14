@@ -3,261 +3,430 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Geograpy MCQ Practice App</title>
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- KaTeX for rendering mathematical equations -->
+  <title>Geography MCQ Practice App</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="initApp();"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
 
   <style>
-    /* Styling for embedded HTML tables inside JSON questions */
-    .mcq-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      font-size: 0.875rem;
-      background-color: #0f172a; /* Slate 900 */
-      border-radius: 0.5rem;
-      overflow: hidden;
-      border: 1px solid #334155; /* Slate 700 */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
-    .mcq-table th, .mcq-table td {
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+    .card {
+      background-color: #1e293b;
       border: 1px solid #334155;
-      padding: 0.5rem 0.75rem;
-      text-align: center;
+      border-radius: 0.75rem;
+      width: 100%;
+      max-width: 42rem;
+      padding: 1.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.5);
     }
-    .mcq-table th {
-      background-color: #1e293b; /* Slate 800 */
-      color: #818cf8; /* Indigo 400 */
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      gap: 0.5rem;
+    }
+    .title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #818cf8;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .progress-txt {
+      font-size: 0.875rem;
+      color: #94a3b8;
+      margin-top: 0.2rem;
+    }
+    .score-txt {
+      font-size: 0.75rem;
+      color: #34d399;
+      margin-top: 0.2rem;
       font-weight: 600;
     }
-    /* Styling for diagram images */
-    .q-image-container {
-      text-align: center;
-      margin: 1rem 0;
+    .jump-box {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
-    .q-image-container img {
-      max-width: 100%;
-      height: auto;
+    .input-jump {
+      width: 4.5rem;
+      padding: 0.35rem;
+      background-color: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 0.375rem;
+      color: #a5b4fc;
+      text-align: center;
+      font-size: 0.875rem;
+      font-weight: 600;
+      outline: none;
+    }
+    .btn {
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.375rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: 0.15s;
+    }
+    .btn-indigo {
+      background-color: #4f46e5;
+      color: white;
+    }
+    .btn-indigo:hover {
+      background-color: #4338ca;
+    }
+    .btn-slate {
+      background-color: #334155;
+      color: #e2e8f0;
+    }
+    .btn-slate:hover {
+      background-color: #475569;
+    }
+    .btn-emerald {
+      background-color: #059669;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.875rem;
+      border-radius: 0.5rem;
+    }
+    .btn-emerald:hover {
+      background-color: #047857;
+    }
+    .question {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      font-weight: 500;
+    }
+    .q-num {
+      color: #818cf8;
+      font-weight: 700;
+      margin-right: 0.5rem;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .opt-btn {
+      width: 100%;
+      text-align: left;
+      padding: 0.85rem 1rem;
       border-radius: 0.5rem;
       border: 1px solid #334155;
-      margin: 0 auto;
+      background-color: #1e293b;
+      color: #f8fafc;
+      cursor: pointer;
+      display: flex;
+      gap: 0.75rem;
+      transition: 0.15s;
+      font-size: 0.95rem;
+    }
+    .opt-btn:hover:not(.locked) {
+      background-color: #334155;
+    }
+    .opt-btn.selected {
+      border-color: #6366f1;
+      background-color: rgba(49, 46, 129, 0.4);
+    }
+    .opt-btn.correct {
+      border-color: #10b981;
+      background-color: rgba(6, 78, 59, 0.4);
+      color: #6ee7b7;
+    }
+    .opt-btn.wrong {
+      border-color: #ef4444;
+      background-color: rgba(127, 29, 29, 0.4);
+      color: #fca5a5;
+    }
+    .opt-key {
+      font-weight: 700;
+      text-transform: uppercase;
+      width: 1.5rem;
+      flex-shrink: 0;
+      color: #818cf8;
+    }
+    .opt-btn.correct .opt-key {
+      color: #34d399;
+    }
+    .opt-btn.wrong .opt-key {
+      color: #f87171;
+    }
+    .footer-btns {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .footer-btns .btn-prev {
+      width: 35%;
+      padding: 0.75rem;
+      font-size: 0.9rem;
+    }
+    .footer-btns .btn-submit {
+      width: 65%;
+      padding: 0.75rem;
+      font-size: 0.9rem;
+    }
+    .footer-btns .btn-submit:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .explanation {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      background-color: #0f172a;
+      border: 1px solid #334155;
+    }
+    .hidden {
+      display: none !important;
+    }
+    .status-correct {
+      color: #34d399;
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .status-wrong {
+      color: #f87171;
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+    .exp-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      color: #94a3b8;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+    .exp-body {
+      font-size: 0.875rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col items-center justify-center p-4">
+<body>
 
-  <div class="max-w-2xl w-full bg-slate-800 border border-slate-700 rounded-xl shadow-2xl p-6 relative">
-    
-    <!-- Top Progress Bar & Jump Control -->
-    <div class="flex flex-wrap justify-between items-center mb-6 pb-4 border-b border-slate-700 gap-2">
+  <div class="card">
+    <div class="header">
       <div>
-        <span class="text-xs font-semibold text-indigo-400 uppercase tracking-wide block">Interactive Practice</span>
-        <span id="progress" class="text-sm font-medium text-slate-400">Loading questions...</span>
-        <span id="score-display" class="text-xs text-emerald-400 block mt-1">Score: 0 | Answered: 0</span>
+        <div class="title">Interactive Practice</div>
+        <div id="progress" class="progress-txt">Loading questions...</div>
+        <div id="score-display" class="score-txt">Score: 0 | Answered: 0</div>
       </div>
-
-      <!-- Jump To Question Feature -->
-      <div class="flex items-center space-x-2">
-        <label for="jump-input" class="text-xs text-slate-400 font-medium">Jump to:</label>
-        <input id="jump-input" type="number" min="1" placeholder="#" class="w-16 px-2 py-1 bg-slate-900 border border-slate-700 rounded text-center text-sm font-semibold text-indigo-300 focus:outline-none focus:border-indigo-500" onkeydown="handleJumpKey(event)">
-        <button onclick="jumpToQuestion()" class="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold text-white rounded transition">Go</button>
-        <button onclick="resetProgress()" class="px-3 py-1 bg-slate-700 hover:bg-slate-600 text-xs font-semibold text-slate-200 rounded transition">Reset</button>
+      <div class="jump-box">
+        <label for="jump-input" style="font-size: 0.75rem; color: #94a3b8;">Jump:</label>
+        <input id="jump-input" type="number" min="1" class="input-jump" onkeydown="if(event.key==='Enter') jumpToQuestion();">
+        <button onclick="jumpToQuestion()" class="btn btn-indigo">Go</button>
+        <button onclick="resetProgress()" class="btn btn-slate">Reset</button>
       </div>
     </div>
 
-    <!-- Active Question -->
-    <div id="question-container" class="text-lg font-medium mb-6 leading-relaxed"></div>
+    <div id="question-container" class="question"></div>
+    <div id="options-container" class="options"></div>
 
-    <!-- Options Container -->
-    <div id="options-container" class="space-y-3 mb-6"></div>
-
-    <!-- Submit Button -->
-    <div class="flex gap-2">
-      <button id="prev-btn" onclick="previousQuestion()" class="w-1/3 py-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold rounded-lg transition duration-200">← Previous</button>
-      <button id="submit-btn" onclick="checkAnswer()" disabled class="w-2/3 py-3 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold rounded-lg transition duration-200">Submit Answer</button>
+    <div class="footer-btns">
+      <button id="prev-btn" onclick="previousQuestion()" class="btn btn-slate btn-prev">← Previous</button>
+      <button id="submit-btn" onclick="checkAnswer()" disabled class="btn btn-indigo btn-submit">Submit Answer</button>
     </div>
 
-    <!-- Solution Reveal Box -->
-    <div id="explanation-box" class="hidden mt-6 p-4 rounded-lg bg-slate-900 border border-slate-700">
-      <div id="result-status" class="text-lg font-bold mb-2"></div>
-      <p class="text-xs uppercase text-slate-400 font-bold tracking-wider mb-1">Hints & Solution:</p>
-      <div id="explanation-text" class="text-slate-300 text-sm leading-relaxed mb-4"></div>
-      
-      <button onclick="nextQuestion()" class="w-full sm:w-auto px-6 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-lg transition duration-200">
-        Next Question →
-      </button>
+    <div id="explanation-box" class="explanation hidden">
+      <div id="result-status"></div>
+      <div class="exp-title">Hints & Solution:</div>
+      <div id="explanation-text" class="exp-body"></div>
+      <div id="explanation-images"></div>
+      <button onclick="nextQuestion()" class="btn btn-emerald">Next Question →</button>
     </div>
-
   </div>
 
   <script>
-    let questions = [];
-    let currentIndex = 0;
-    let selectedOption = null;
-    let score = Number(localStorage.getItem('mcq_score') || 0);
-    let answeredCount = Number(localStorage.getItem('mcq_answered') || 0);
-    let hasAnsweredCurrent = false;
+    var questions = [];
+    var currentIndex = 0;
+    var selectedOption = null;
+    var userAnswers = {};
 
-    const katexConfig = {
-      delimiters: [
-        {left: '$$', right: '$$', display: true},
-        {left: '$', right: '$', display: false},
-        {left: '\\(', right: '\\)', display: false},
-        {left: '\\[', right: '\\]', display: true}
-      ],
-      throwOnError: false
-    };
+    function getKaTeXConfig() {
+      var d = String.fromCharCode(36);
+      return {
+        delimiters: [
+          { left: d + d, right: d + d, display: true },
+          { left: d, right: d, display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true }
+        ],
+        throwOnError: false
+      };
+    }
 
     async function initApp() {
       try {
-        const response = await fetch('quiz_data.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const data = await response.json();
+        var response = await fetch('./quiz_data.json');
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        questions = await response.json();
 
-        if (Array.isArray(data)) {
-          questions = data;
-        } else if (data.sections) {
-          let questionsList = [];
-          let solutionsMap = {};
-
-          data.sections.forEach(section => {
-            if (section.questions) {
-              questionsList = section.questions;
-            } else if (section.section_type === "HINTS AND SOLUTIONS" && section.solutions) {
-              section.solutions.forEach(sol => {
-                solutionsMap[sol.question_number] = {
-                  correct: sol.correct_option || 'a',
-                  explanation: sol.explanation || 'No detailed solution provided.'
-                };
-              });
-            }
-          });
-
-          questions = questionsList.map(q => {
-            const qNum = q.question_number;
-            const sol = solutionsMap[qNum] || { correct: 'a', explanation: 'No detailed explanation provided.' };
-
-            return {
-              id: qNum,
-              question: q.question,
-              image: q.image || null,
-              options: q.options || {},
-              correct: sol.correct,
-              explanation: sol.explanation
-            };
-          });
+        var savedAnswers = localStorage.getItem('mcq_user_answers');
+        if (savedAnswers) {
+          try { userAnswers = JSON.parse(savedAnswers) || {}; } catch(e) { userAnswers = {}; }
         }
 
-        if (questions.length > 0) {
-          // Restore last saved question position if available
-          const savedIndex = localStorage.getItem('mcq_last_index');
-          if (savedIndex !== null) {
-            const idx = parseInt(savedIndex, 10);
-            if (!isNaN(idx) && idx >= 0 && idx < questions.length) {
-              currentIndex = idx;
-            }
-          }
-          loadQuestion();
-        } else {
-          document.getElementById('question-container').innerText = "No questions found in quiz_data.json.";
+        var savedIndex = localStorage.getItem('mcq_last_index');
+        if (savedIndex !== null) {
+          var idx = parseInt(savedIndex, 10);
+          if (!isNaN(idx) && idx >= 0 && idx < questions.length) currentIndex = idx;
         }
+
+        loadQuestion();
       } catch (err) {
-        document.getElementById('question-container').innerText = "Failed to load questions. Ensure quiz_data.json is in the root directory.";
+        document.getElementById('question-container').innerHTML = 
+          '<div style="color: #f87171; font-size: 0.9rem;">' +
+          '<strong>Cannot load questions.</strong><br>' +
+          'Ensure <code>quiz_data.json</code> is in the same directory as <code>index.html</code>.' +
+          '</div>';
       }
     }
 
-    function renderMathIn(element) {
-      if (window.renderMathInElement && element) {
-        renderMathInElement(element, katexConfig);
+    function renderMath() {
+      if (window.renderMathInElement) {
+        renderMathInElement(document.querySelector('.card'), getKaTeXConfig());
       }
+    }
+
+    function updateScoreDisplay() {
+      var score = 0;
+      var answeredCount = 0;
+      questions.forEach(function(q) {
+        if (userAnswers[q.id]) {
+          answeredCount++;
+          if (userAnswers[q.id].toLowerCase() === q.correct.toLowerCase()) score++;
+        }
+      });
+      document.getElementById('score-display').innerText = "Score: " + score + " | Answered: " + answeredCount;
     }
 
     function loadQuestion() {
-      const q = questions[currentIndex];
+      if (!questions.length) return;
+      var q = questions[currentIndex];
       selectedOption = null;
-      hasAnsweredCurrent = false;
 
-      // Save current question index to LocalStorage
       localStorage.setItem('mcq_last_index', currentIndex);
 
-      document.getElementById('progress').innerText = `Question ${currentIndex + 1} of ${questions.length}`;
-      document.getElementById('score-display').innerText = `Score: ${score} | Answered: ${answeredCount}`;
-      document.getElementById('jump-input').max = questions.length;
-      document.getElementById('prev-btn').disabled = currentIndex === 0;
-      document.getElementById('prev-btn').classList.toggle('opacity-50', currentIndex === 0);
+      document.getElementById('progress').innerText = "Question " + (currentIndex + 1) + " of " + questions.length;
       document.getElementById('jump-input').value = currentIndex + 1;
-      
-      const qContainer = document.getElementById('question-container');
-      
-      // Build Question Content
-      let qHtml = `<span class="font-bold text-indigo-400 mr-2">${q.id}.</span>${q.question}`;
-      
-      // Render Diagram Image if present in JSON (e.g. Q573)
-      if (q.image) {
-        qHtml += `<div class="q-image-container">
-                    <img src="${q.image}" alt="Diagram for Q${q.id}" />
-                  </div>`;
-      }
+      document.getElementById('jump-input').max = questions.length;
+      document.getElementById('prev-btn').disabled = (currentIndex === 0);
+      document.getElementById('prev-btn').style.opacity = (currentIndex === 0) ? "0.4" : "1";
 
-      qContainer.innerHTML = qHtml;
-      
-      const optionsContainer = document.getElementById('options-container');
+      var qHtml = '<span class="q-num">' + q.id + '.</span>' + q.question;
+      if (q.image) {
+        qHtml += '<div style="text-align:center; margin: 1rem 0;"><img src="' + q.image + '" style="max-width:100%; border-radius:0.5rem; border:1px solid #334155;" onerror="this.style.display=\'none\'" /></div>';
+      }
+      document.getElementById('question-container').innerHTML = qHtml;
+
+      var optionsContainer = document.getElementById('options-container');
       optionsContainer.innerHTML = '';
 
-      Object.entries(q.options).forEach(([key, val]) => {
-        const btn = document.createElement('button');
-        btn.className = `w-full text-left p-3 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700/50 transition flex items-center space-x-3 option-btn`;
-        btn.onclick = () => selectOption(key, btn);
-        btn.innerHTML = `<span class="font-bold text-indigo-400 uppercase w-6">${key})</span> <span class="option-content">${val}</span>`;
+      var previousAnswer = userAnswers[q.id];
+      var isAnswered = Boolean(previousAnswer);
+
+      Object.entries(q.options).forEach(function(entry) {
+        var key = entry[0];
+        var val = entry[1];
+        var btn = document.createElement('button');
+        btn.className = 'opt-btn';
+
+        if (!isAnswered) {
+          btn.onclick = function() { selectOption(key, btn); };
+        } else {
+          btn.classList.add('locked');
+          if (key.toLowerCase() === q.correct.toLowerCase()) {
+            btn.classList.add('correct');
+          } else if (key.toLowerCase() === previousAnswer.toLowerCase()) {
+            btn.classList.add('wrong');
+          }
+        }
+
+        btn.innerHTML = '<span class="opt-key">' + key + ')</span><span>' + val + '</span>';
         optionsContainer.appendChild(btn);
       });
 
-      document.getElementById('submit-btn').disabled = true;
-      document.getElementById('submit-btn').classList.remove('hidden');
-      document.getElementById('explanation-box').classList.add('hidden');
+      var submitBtn = document.getElementById('submit-btn');
+      var expBox = document.getElementById('explanation-box');
 
-      renderMathIn(document.body);
+      if (isAnswered) {
+        submitBtn.classList.add('hidden');
+        showExplanation(previousAnswer, q);
+      } else {
+        submitBtn.classList.remove('hidden');
+        submitBtn.disabled = true;
+        expBox.classList.add('hidden');
+      }
+
+      updateScoreDisplay();
+      renderMath();
     }
 
     function selectOption(key, element) {
+      if (userAnswers[questions[currentIndex].id]) return;
       selectedOption = key;
-      document.querySelectorAll('.option-btn').forEach(btn => {
-        btn.classList.remove('border-indigo-500', 'bg-indigo-950/40');
+      document.querySelectorAll('.opt-btn').forEach(function(btn) {
+        btn.classList.remove('selected');
       });
-      element.classList.add('border-indigo-500', 'bg-indigo-950/40');
+      element.classList.add('selected');
       document.getElementById('submit-btn').disabled = false;
     }
 
     function checkAnswer() {
-      const q = questions[currentIndex];
-      if (hasAnsweredCurrent) return;
-      const isCorrect = selectedOption === q.correct;
-      hasAnsweredCurrent = true;
-      answeredCount++;
-      if (isCorrect) score++;
-      localStorage.setItem('mcq_score', score);
-      localStorage.setItem('mcq_answered', answeredCount);
-      document.getElementById('score-display').innerText = `Score: ${score} | Answered: ${answeredCount}`;
+      var q = questions[currentIndex];
+      if (!selectedOption || userAnswers[q.id]) return;
+      userAnswers[q.id] = selectedOption;
+      localStorage.setItem('mcq_user_answers', JSON.stringify(userAnswers));
+      loadQuestion();
+    }
 
-      document.getElementById('submit-btn').classList.add('hidden');
-      const statusEl = document.getElementById('result-status');
-      
-      if (isCorrect) {
-        statusEl.innerText = "✓ Correct!";
-        statusEl.className = "text-lg font-bold mb-2 text-emerald-400";
-      } else {
-        statusEl.innerText = `✗ Incorrect (Correct Answer: ${q.correct.toUpperCase()})`;
-        statusEl.className = "text-lg font-bold mb-2 text-rose-400";
+    function showExplanation(answerKey, q) {
+      var isCorrect = (answerKey.toLowerCase() === q.correct.toLowerCase());
+      var statusEl = document.getElementById('result-status');
+      statusEl.className = isCorrect ? 'status-correct' : 'status-wrong';
+      statusEl.innerText = isCorrect ? '✓ Correct!' : '✗ Incorrect (Correct Answer: ' + q.correct.toUpperCase() + ')';
+      document.getElementById('explanation-text').innerHTML = q.explanation || "No explanation provided.";
+
+      var expImages = document.getElementById('explanation-images');
+      expImages.innerHTML = '';
+      if (Array.isArray(q.explanation_images)) {
+        q.explanation_images.forEach(function(src) {
+          var img = document.createElement('img');
+          img.src = src;
+          img.style.maxWidth = '100%';
+          img.style.borderRadius = '0.5rem';
+          img.style.marginTop = '0.5rem';
+          img.onerror = function() { img.style.display = 'none'; };
+          expImages.appendChild(img);
+        });
       }
 
-      const expBox = document.getElementById('explanation-text');
-      expBox.innerHTML = q.explanation;
       document.getElementById('explanation-box').classList.remove('hidden');
-
-      renderMathIn(document.getElementById('explanation-box'));
     }
 
     function nextQuestion() {
@@ -265,38 +434,38 @@
         currentIndex++;
         loadQuestion();
       } else {
-        alert("Congratulations! You have completed all questions in this test set.");
+        alert("You have completed all questions in this test set!");
       }
     }
 
     function previousQuestion() {
-      if (currentIndex > 0) { currentIndex--; loadQuestion(); }
-    }
-
-    function resetProgress() {
-      if (confirm('Reset score and saved position?')) {
-        localStorage.removeItem('mcq_last_index');
-        localStorage.removeItem('mcq_score');
-        localStorage.removeItem('mcq_answered');
-        score = 0; answeredCount = 0; currentIndex = 0; loadQuestion();
+      if (currentIndex > 0) {
+        currentIndex--;
+        loadQuestion();
       }
     }
 
     function jumpToQuestion() {
-      const inputVal = parseInt(document.getElementById('jump-input').value, 10);
-      if (!isNaN(inputVal) && inputVal >= 1 && inputVal <= questions.length) {
-        currentIndex = inputVal - 1;
+      var val = parseInt(document.getElementById('jump-input').value.trim(), 10);
+      if (!isNaN(val) && val >= 1 && val <= questions.length) {
+        currentIndex = val - 1;
         loadQuestion();
       } else {
-        alert(`Please enter a question number between 1 and ${questions.length}.`);
+        alert("Please enter a number between 1 and " + questions.length + ".");
       }
     }
 
-    function handleJumpKey(event) {
-      if (event.key === 'Enter') {
-        jumpToQuestion();
+    function resetProgress() {
+      if (confirm('Reset score and clear progress?')) {
+        localStorage.removeItem('mcq_last_index');
+        localStorage.removeItem('mcq_user_answers');
+        userAnswers = {};
+        currentIndex = 0;
+        loadQuestion();
       }
     }
+
+    window.addEventListener('DOMContentLoaded', initApp);
   </script>
 </body>
 </html>
