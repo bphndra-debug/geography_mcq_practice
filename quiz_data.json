@@ -241,17 +241,18 @@
     "explanation": "The archaean rocks are the Oldest rocks [pre-Cambrian era] formed about 4 billion years ago. The rocks of the Archaean system are found mainly in Karnataka, Tamil Nadu, Andhra Pradesh, Madhya Pradesh, Odisha, Chotanagpur plateau in Jharkhand and the south-eastern part of Rajasthan."
   },
   {
-    "id": 21,
-    "question": "Consider the following statement regarding India:\nI. India has an area of 3.28 million sq km, and accounts for about 2.4 percent of the total geographical area of the world.\nII. The mainland of India extends between latitudes \(8^{\\circ}4^{\\prime}\) N and \(37^{\\circ}6^{\\prime}\) N and longitude \(68^{\\circ}7^{\\prime}\) E and \(67^{\\circ}25^{\\prime}\) E.\nIII. Presently India has 28 States and 8 Union Territories.\nWhich of the statements given above is/are correct.",
-    "options": {
-      "a": "I only",
-      "b": "I and II only",
-      "c": "I and III only",
-      "d": "I, II and III"
-    },
-    "correct": "c",
-    "explanation": "India has an area of 3.28 million sq km, and accounts for about 2.4 percent of the total geographical area of the world. The mainland of India extends between latitudes \(8^{\\circ}4^{\\prime}\) N and \(37^{\\circ}6^{\\prime}\) N and longitude \(68^{\\circ}7^{\\prime}\) E and \(97^{\\circ}25^{\\prime}\) E. Presently India has 28 States and 8 Union Territories. Thus, statements I and III are correct."
+    "{
+  "id": 21,
+  "question": "Consider the following statement regarding India:\nI. India has an area of 3.28 million sq km, and accounts for about 2.4 percent of the total geographical area of the world.\nII. The mainland of India extends between latitudes \\(8^{\\circ}4^{\\prime}\\) N and \\(37^{\\circ}6^{\\prime}\\) N and longitude \\(68^{\\circ}7^{\\prime}\\) E and \\(97^{\\circ}25^{\\prime}\\) E.\nIII. Presently India has 28 States and 8 Union Territories.\nWhich of the statements given above is/are correct.",
+  "options": {
+    "a": "I only",
+    "b": "I and II only",
+    "c": "I and III only",
+    "d": "I, II and III"
   },
+  "correct": "c",
+  "explanation": "India has an area of 3.28 million sq km, and accounts for about 2.4 percent of the total geographical area of the world. The mainland of India extends between latitudes \\(8^{\\circ}4^{\\prime}\\) N and \\(37^{\\circ}6^{\\prime}\\) N and longitude \\(68^{\\circ}7^{\\prime}\\) E and \\(97^{\\circ}25^{\\prime}\\) E. Presently India has 28 States and 8 Union Territories. Thus, statements I and III are correct."
+}
   {
     "id": 22,
     "question": "India is mainly called as tropical country due to which of following reasons -",
