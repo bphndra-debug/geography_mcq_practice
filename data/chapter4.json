@@ -1,0 +1,2270 @@
+{
+  "schema_version": "2.0",
+  "title": "Coastal Part and the Islands",
+  "source": "MCQ ch4.pdf",
+  "total_questions": 76,
+  "question_types": {
+    "single_choice": 60,
+    "assertion_statement": 1,
+    "ordering": 2,
+    "statement_combination": 9,
+    "pair_selection": 1,
+    "matching": 3
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "single_choice",
+      "question": "The Sahyadri range is not straight but at many places it is curved, because",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Sahyadri range is curved at many places because of the headward erosion of the Konkan rivers originating in Sahydri."
+        },
+        {
+          "id": "b",
+          "text": "The Sahyadri range is curved at many places because of the lateral erosion of the Konkan rivers originating is Sahyadri."
+        },
+        {
+          "id": "c",
+          "text": "The Sahyadri range in curved at many places because of the downward erosion of the Konkan rivers originating in Sayadri."
+        },
+        {
+          "id": "d",
+          "text": "Due to heavy rainfall the Sahyadri range is heavily eroded and hence it is curved ."
+        }
+      ],
+      "correct": "a",
+      "explanation": "The Sahyadri range is curved at many places because of the headward erosion of Swift rivers originating in Sahyadri.",
+      "source_page": 1
+    },
+    {
+      "id": 2,
+      "type": "single_choice",
+      "question": "Sriharikota Island is located near-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chilika Lake"
+        },
+        {
+          "id": "b",
+          "text": "Pulicat Lake"
+        },
+        {
+          "id": "c",
+          "text": "Mahanadi estuary"
+        },
+        {
+          "id": "d",
+          "text": "Godavari estuary"
+        }
+      ],
+      "correct": "b",
+      "explanation": "It is located near the Pulicat Lake, which is on the borders of Andhra Pradesh and Tamil Nadu. It is the site of the Satish Dhawan Space Centre, one of the two satellite launching centres in India. The long and narrow Shriharikota Island, separates Pulicat lake from the Bay of Bengal.",
+      "source_page": 1
+    },
+    {
+      "id": 3,
+      "type": "single_choice",
+      "question": "At which of the following coasts of India is the average sea level measured?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mumbai"
+        },
+        {
+          "id": "b",
+          "text": "Chennai"
+        },
+        {
+          "id": "c",
+          "text": "Cochin (Kochi)"
+        },
+        {
+          "id": "d",
+          "text": "Vishakhapatnam Uttarakhand RO/ARO G.S. 2016"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Average sea level is measured from the coasts of Chennai in India.",
+      "source_page": 1
+    },
+    {
+      "id": 4,
+      "type": "single_choice",
+      "question": "At one of the places in India, if you stand on the seashore and watch the sea, you will find that the sea water recedes from the shore line a few kilometers and comes back to the shore, twice a day, and you can actually walk on the sea floor when the water recedes. This unique phenomenon is seen at:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bhavnagar"
+        },
+        {
+          "id": "b",
+          "text": "Bheemunipatnam"
+        },
+        {
+          "id": "c",
+          "text": "Chandipur"
+        },
+        {
+          "id": "d",
+          "text": "Nagapattinam"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Chandipur beach Balasore district (in Odisha), is unique, here the water recedes up to 5 kilometers during the ebb tide.You can ‘literally’ walk on the beach as the sea water recedes from the shore line during the ebb tide (time period between the high tide and the low tide). Ebb tide - Seaward flow in estuaries or tidal river during a tidal phase of lowering water.",
+      "source_page": 1
+    },
+    {
+      "id": 5,
+      "type": "single_choice",
+      "question": "Minor ports like Kakinada, Machilipatnam, Bheemunipatnam and Krishnapatnam are in which of the following States?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "b",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "c",
+          "text": "Kerala"
+        },
+        {
+          "id": "d",
+          "text": "Odisha"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Minor ports like Kakinada, Machilipatnam, Bheemunipatnam, and Krishnapatnam are in Andhra Pradesh. So the correct answer is option (b).",
+      "source_page": 1
+    },
+    {
+      "id": 6,
+      "type": "single_choice",
+      "question": "The sea coast of Tamil Nadu is known as:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Circar coast"
+        },
+        {
+          "id": "b",
+          "text": "Konkan coast"
+        },
+        {
+          "id": "c",
+          "text": "Malabar coast"
+        },
+        {
+          "id": "d",
+          "text": "Coromandel coast"
+        }
+      ],
+      "correct": "d",
+      "explanation": "The Eastern coastal region of India is divided into three parts –Utkal plains ,Northern Circars, and Coromandel Coast. Coromandel Coast lies between the Krishna Delta in Andhra Pradesh and the Cape Comorin in Tamil Nadu.",
+      "source_page": 1
+    },
+    {
+      "id": 7,
+      "type": "single_choice",
+      "question": "Which one of the following coasts of India is located between Krishna delta and Cape Comorin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Coromandel Coast"
+        },
+        {
+          "id": "b",
+          "text": "North Circar"
+        },
+        {
+          "id": "c",
+          "text": "Malabar Coast"
+        },
+        {
+          "id": "d",
+          "text": "Konkan Coast"
+        }
+      ],
+      "correct": "a",
+      "explanation": "See the explnation of above question.",
+      "source_page": 1
+    },
+    {
+      "id": 8,
+      "type": "single_choice",
+      "question": "The name of the coast of Tamil Nadu and Andhra Pradesh is-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Coromandel"
+        },
+        {
+          "id": "b",
+          "text": "Malabar"
+        },
+        {
+          "id": "c",
+          "text": "North Circar"
+        },
+        {
+          "id": "d",
+          "text": "Konkan"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 1
+    },
+    {
+      "id": 9,
+      "type": "single_choice",
+      "question": "Which of the following remain dry during the months of July and August?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Coromandel coast"
+        },
+        {
+          "id": "b",
+          "text": "Konkan Coast"
+        },
+        {
+          "id": "c",
+          "text": "Malabar coast"
+        },
+        {
+          "id": "d",
+          "text": "Uttari Sarkar (I.A.S. (Pre) Opt. Geog. 2003)"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coromandel coast remains dry in the month of July and August, because during that time India is experienced by South-west monsoon, Coromandel coast and Tamil Nadu coast remain parallel to Bay of Bengal branch and further lie in rain shadow region of Arabian Sea branch of South West Monsoon.",
+      "source_page": 1
+    },
+    {
+      "id": 10,
+      "type": "assertion_statement",
+      "question": "Assertion (A): Odisha coast in India is most cyclone prone area. Reason (R): Mangroves have been cut down in large quantities in the Mahanadi delta region. Select the correct answer from the code given below:",
+      "options": [
+        {
+          "id": "a",
+          "text": "A and R both are correct and R is the correct explanation of A."
+        },
+        {
+          "id": "b",
+          "text": "A and R both are correct but R is not the correct explanation of A."
+        },
+        {
+          "id": "c",
+          "text": "A is true but R is false."
+        },
+        {
+          "id": "d",
+          "text": "A is false but R is true."
+        }
+      ],
+      "correct": "b",
+      "explanation": "Odisha is the most cyclone prone area due to its geographical location,low surface pressure and high sea-surface temperature in the Bay of Bengal. Also Mangroves have been cut down in large quantities in the Mahanadi delta region. Both of the given statements are correct but the reason is not the correct explanation.",
+      "source_page": 1,
+      "statements": [
+        {
+          "id": "A",
+          "text": "Odisha coast in India is most cyclone prone area."
+        },
+        {
+          "id": "R",
+          "text": "Mangroves have been cut down in large quantities in the Mahanadi delta region."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "ordering",
+      "question": "Consider the following western coastal towns of India– 1. Janjira 2. Kannur 3. Nagercoil 4. Sindhu durg Correct sequence of these cities from north to south will be—",
+      "items": [
+        {
+          "id": "1",
+          "text": "Janjira"
+        },
+        {
+          "id": "2",
+          "text": "Kannur"
+        },
+        {
+          "id": "3",
+          "text": "Nagercoil"
+        },
+        {
+          "id": "4",
+          "text": "Sindhu durg"
+        }
+      ],
+      "ordering_instruction": "Arrange the items in the correct order.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "b",
+          "text": "2, 1, 3, 4"
+        },
+        {
+          "id": "c",
+          "text": "1, 2, 4, 3"
+        },
+        {
+          "id": "d",
+          "text": "1, 4, 2, 3"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Janjira - It is located in the state of Maharashtra on the bank of Arabian Sea. Sindhu Durg - It is the city of Maharashtra on the banks of the Arabian Sea. Kannur - It is the city of Kerala. Nagercoil - It is the city of Tamil Nadu in Kanyakumari district located on coast of Laccadive, Sea.",
+      "source_page": 2
+    },
+    {
+      "id": 12,
+      "type": "single_choice",
+      "question": "The Western Ghat is-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mountain"
+        },
+        {
+          "id": "b",
+          "text": "Escarpment of Plateaus"
+        },
+        {
+          "id": "c",
+          "text": "Plateau"
+        },
+        {
+          "id": "d",
+          "text": "Hills"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Western ghats are called great escarpment of India. An Escarpment is a steep slope formed by result of faulting and Western ghats are faulted edge of Deccan plateau. Western ghats starts from Gujarat and ends in Tamil Nadu covering the States of Maharashtra, Goa, Karnataka, and Kerala is also a UNESCO World Heritage Site.",
+      "source_page": 2
+    },
+    {
+      "id": 13,
+      "type": "single_choice",
+      "question": "Kuttanad (or Kuttanadu) of Kerala is famous for",
+      "options": [
+        {
+          "id": "a",
+          "text": "A fresh water lake"
+        },
+        {
+          "id": "b",
+          "text": "The region with the lowest altitude in India"
+        },
+        {
+          "id": "c",
+          "text": "A coral island"
+        },
+        {
+          "id": "d",
+          "text": "The western most point of India"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Kuttanad in Kerala is famous for below sea level rice cultivation in the land created by draining delta swamps in brackish waters.",
+      "source_page": 2
+    },
+    {
+      "id": 14,
+      "type": "single_choice",
+      "question": "Which of the following is not located on the Western Coast of India?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daman"
+        },
+        {
+          "id": "b",
+          "text": "Janjira"
+        },
+        {
+          "id": "c",
+          "text": "Karaikal"
+        },
+        {
+          "id": "d",
+          "text": "Ratnagiri"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Daman is a union territory and is situated on the western coast. Janjira is located in Maharashtra on the western coast, Ratnagiri is also loacated in Maharashtra on the western coast while Karaikal is a municipal town in Puducherry located on the eastern coast.",
+      "source_page": 2
+    },
+    {
+      "id": 15,
+      "type": "single_choice",
+      "question": "The Western Ghats of Maharashtra and Karnataka is known as-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nilgiri Mountain"
+        },
+        {
+          "id": "b",
+          "text": "Sahyadri"
+        },
+        {
+          "id": "c",
+          "text": "Deccan plataeu"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The Western Ghats or Sahyadri runs north to south along the western edge of the Deccan Plateau, and separates the plateau from a narrow coastal plain along the Arabian sea. The range starts near the border of Gujarat and Maharashtra, south of the Tapi River, and runs approximately 1500 km through the states of Maharashtra, Goa, Karnataka, Tamil Nadu and Kerala ending at Kanyakumari.",
+      "source_page": 2
+    },
+    {
+      "id": 16,
+      "type": "single_choice",
+      "question": "Which among the following is known as Sahyadri region (Range)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eastern Ghat"
+        },
+        {
+          "id": "b",
+          "text": "Western Ghat"
+        },
+        {
+          "id": "c",
+          "text": "Shiwalik"
+        },
+        {
+          "id": "d",
+          "text": "Vindhya"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 2
+    },
+    {
+      "id": 17,
+      "type": "single_choice",
+      "question": "Continental shelf of which of the following state of India is largest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "b",
+          "text": "Gujarat"
+        },
+        {
+          "id": "c",
+          "text": "Karnataka"
+        },
+        {
+          "id": "d",
+          "text": "Tamil Nadu"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The continental shelf is the edge of a continent that lies under the ocean. The Indian state of Gujarat has the highest continental shelf area, amounting to about 184,000 square kilometers, followed by the state of Maharashtra. The union territory of Puducherry has the smallest continental shelf of 1000 square kilometers.",
+      "source_page": 2
+    },
+    {
+      "id": 18,
+      "type": "statement_combination",
+      "question": "Consider the following statements. Which of the above statements is/are true?",
+      "statements": [
+        {
+          "id": "I",
+          "text": "Continental shelf of Lakshadweep has arisen due to Coral reef"
+        },
+        {
+          "id": "II",
+          "text": "Continental shelf of western coast are due to faulting and immersion"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only 1"
+        },
+        {
+          "id": "b",
+          "text": "Only 2"
+        },
+        {
+          "id": "c",
+          "text": "1 & 2 both"
+        },
+        {
+          "id": "d",
+          "text": "Neither 1 nor 2"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Continental shelf of Lakshadweep has arisen due to Coral reef and Continental shelf of western coast are due to faulting and immersion. Thus, both statements are true.",
+      "source_page": 2
+    },
+    {
+      "id": 19,
+      "type": "single_choice",
+      "question": "Kathiawar Peninsula is an example of –",
+      "options": [
+        {
+          "id": "a",
+          "text": "Deserted Coast line"
+        },
+        {
+          "id": "b",
+          "text": "Submerged coast line"
+        },
+        {
+          "id": "c",
+          "text": "Riya coastline"
+        },
+        {
+          "id": "d",
+          "text": "Dalmatian coastline I.A.S. (Pre) Opt. Geog. 2001, 2003"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Kathiawar peninsula also called Saurashtra peninsula, is in South western part of Gujarat. It is bounded by the little Rann (Marsh) of Kutch to the North Gulf of Khambhat to the East the Arabian Sea to the Southwest and Gulf of Kutch to the North West.",
+      "source_page": 3
+    },
+    {
+      "id": 20,
+      "type": "statement_combination",
+      "question": "Which of the following statement(s) is(are) correct in relation to Western Ghats? 1. The Western Ghats are the main reason for the monsoon rain in the western coast of India. 2. Western Ghats are locally known as Sahyadri in Tamil Nadu and Nilgiri hills in Telangana. 3. Heights of the Western Ghats decrease from north to south.",
+      "statements": [
+        {
+          "id": "1",
+          "text": "The Western Ghats are the main reason for the monsoon rain in the western coast of India."
+        },
+        {
+          "id": "2",
+          "text": "Western Ghats are locally known as Sahyadri in Tamil Nadu and Nilgiri hills in Telangana."
+        },
+        {
+          "id": "3",
+          "text": "Heights of the Western Ghats decrease from north to south."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only 1"
+        },
+        {
+          "id": "b",
+          "text": "Only 1 and 2"
+        },
+        {
+          "id": "c",
+          "text": "Only 2 and 2"
+        },
+        {
+          "id": "d",
+          "text": "Only 2"
+        }
+      ],
+      "correct": "a",
+      "explanation": "The Western Ghats block rain-bearing winds which cause rainfall on the western slopes. Whereas, South-West monsoon moves parallel to the Eastern Ghats, which cause less rainfall, because in the Eastern Ghats they are unable to block moisture laden winds. The Western Ghats lies in rain-fed area of the Arabian Sea branch of the South-West Monsoon whereas Eastern Ghats lies in the rain shadow area of the Arabian sea branch of the South-West Monsoon. Western Ghats are known as Sahyadri in Maharashtra. Height of Western Ghats increases from North to South.",
+      "source_page": 3
+    },
+    {
+      "id": 21,
+      "type": "single_choice",
+      "question": "Summits of Western Ghats are covered with______",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mountain soils"
+        },
+        {
+          "id": "b",
+          "text": "Laterite soils"
+        },
+        {
+          "id": "c",
+          "text": "Forest soils"
+        },
+        {
+          "id": "d",
+          "text": "Red soils"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Laterite Soils are found on the Summits of Western Ghats. These soil are found in the areas which experience high temperature and heavy rainfalls.",
+      "source_page": 3
+    },
+    {
+      "id": 22,
+      "type": "statement_combination",
+      "question": "With reference to the wetlands of India, consider the following statements: 1. The country’s total geographical area under the category of wetlands is recorded more in Gujarat as compared to other states. 2. In India, the total geographical area of coastal wetlands is larger than that of inland wetlands. Which of the statements given above is/are correct?",
+      "statements": [
+        {
+          "id": "1",
+          "text": "The country’s total geographical area under the category of wetlands is recorded more in Gujarat as compared to other states."
+        },
+        {
+          "id": "2",
+          "text": "In India, the total geographical area of coastal wetlands is larger than that of inland wetlands."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "1 only"
+        },
+        {
+          "id": "b",
+          "text": "2 only"
+        },
+        {
+          "id": "c",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "d",
+          "text": "Neither 1 nor 2 ("
+        }
+      ],
+      "correct": "a",
+      "explanation": "The area recorded as wetlands is more in Gujarat (approx 18%) as compared to other states. Area of inland wetlands in India is much more than area of coastal wetland.",
+      "source_page": 3
+    },
+    {
+      "id": 23,
+      "type": "single_choice",
+      "question": "Which of the following statements is not correct?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The Western Ghats are relatively higher in their northern region."
+        },
+        {
+          "id": "b",
+          "text": "The Anamudi is the highest peak in the Western Ghats."
+        },
+        {
+          "id": "c",
+          "text": "Tapi river lies to the south of Satpura."
+        },
+        {
+          "id": "d",
+          "text": "The Narmada and the Tapi river valleys are said to be old rift valleys. ("
+        }
+      ],
+      "correct": "a",
+      "explanation": "Height of Western Ghats increases from north to south direction. Anamudi (2695 metres) is highest peak followed by Doddabetta.",
+      "source_page": 3
+    },
+    {
+      "id": 24,
+      "type": "single_choice",
+      "question": "Which one of the following is NOT the port town of Gujarat ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jamnagar"
+        },
+        {
+          "id": "b",
+          "text": "Okha"
+        },
+        {
+          "id": "c",
+          "text": "Porbandar"
+        },
+        {
+          "id": "d",
+          "text": "Veraval"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Jamnagar is famous for refineries, and petrochemical industry. The biggest refinery of private sector (Reliance Group.) is situated here. It is not a port town. Whereas all the other given towns are port towns. Jamnagar is located at the South of the Rann of Kutch. C. The Island",
+      "source_page": 3
+    },
+    {
+      "id": 25,
+      "type": "single_choice",
+      "question": "Majuli, is the largest inhabited riverine island in the world is formed by",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ganga river"
+        },
+        {
+          "id": "b",
+          "text": "Narmada river"
+        },
+        {
+          "id": "c",
+          "text": "Brahmaputra river"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "c",
+      "explanation": "The largest inhabited riverine island in the world is Majuli located in Assam. It is formed by Brahmaputra river.",
+      "source_page": 3
+    },
+    {
+      "id": 26,
+      "type": "statement_combination",
+      "question": "Consider the following statements about Lakshadweep islands. (1) This group of islands is composed of small coral islands. (2) Earlier they were known as Laccadive, Minicoy and Aminidivi. (3) Islands group lying close to the Coromandal coast of Tamil Nadu. Which of the statements given above is/are correct?",
+      "statements": [
+        {
+          "id": "1",
+          "text": "This group of islands is composed of small coral islands."
+        },
+        {
+          "id": "2",
+          "text": "Earlier they were known as Laccadive, Minicoy and Aminidivi."
+        },
+        {
+          "id": "3",
+          "text": "Islands group lying close to the Coromandal coast of Tamil Nadu."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only (1)"
+        },
+        {
+          "id": "b",
+          "text": "Only (1) and (2)"
+        },
+        {
+          "id": "c",
+          "text": "Only (3)"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Lakshadweep is an archipelago of 36 islands divided into three island subgroups - The Laccadive island, Aminidivi island and Minicoy island. The group of islands is composed of small coral islands. Hence both statements 1 & 2 are correct. The Lakshadweep island group lying close to the Malabar coast of Kerala. Hence statement 3 is not correct.",
+      "source_page": 3
+    },
+    {
+      "id": 27,
+      "type": "single_choice",
+      "question": "The Abdul Kalam island is located in the State of",
+      "options": [
+        {
+          "id": "a",
+          "text": "West Bengal"
+        },
+        {
+          "id": "b",
+          "text": "Odisha"
+        },
+        {
+          "id": "c",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "d",
+          "text": "Tamilnadu"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The Abdul Kalam island is located in the state of Odisha. Formerly it was known as 'Wheeler Island'. Missiles Akash, Agni, Astra, Brahmos, Nirbhay, Prahar, Prithvi etc. were test fired from Wheeler Island.",
+      "source_page": 4
+    },
+    {
+      "id": 28,
+      "type": "single_choice",
+      "question": "Maximum number of India's islands are located in……………",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bay of Bengal"
+        },
+        {
+          "id": "b",
+          "text": "Arabian Sea"
+        },
+        {
+          "id": "c",
+          "text": "Gulf of Mannar"
+        },
+        {
+          "id": "d",
+          "text": "Senthil Sea"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Maximum number of India's island are located in Bay of Bengal. The Bay of Bengal island group consists of about 836 island/islets. These are situated roughly between 6ºN - 14ºN and 92ºE - 94ºE.",
+      "source_page": 4
+    },
+    {
+      "id": 29,
+      "type": "statement_combination",
+      "question": "Consider the following statements related to Lakshadweep islands and choose the correct ones: 1. The Eleven Degree channel separates the Amindivi Island in the north and Cannannore islands in the south. 2. Lakshadweep group of islands are of tectonic origin. 3. Minicoy is the largest island in the Lakshadweep group of islands.",
+      "statements": [
+        {
+          "id": "1",
+          "text": "The Eleven Degree channel separates the Amindivi Island in the north and Cannannore islands in the south."
+        },
+        {
+          "id": "2",
+          "text": "Lakshadweep group of islands are of tectonic origin."
+        },
+        {
+          "id": "3",
+          "text": "Minicoy is the largest island in the Lakshadweep group of islands."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only 1 and 2"
+        },
+        {
+          "id": "b",
+          "text": "Only 2 and 3"
+        },
+        {
+          "id": "c",
+          "text": "Only 1 and 3"
+        },
+        {
+          "id": "d",
+          "text": "1, 2 and 3"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Lakshadweep is an archipelago consist of 36 Islands in Arabian sea. It is of coral origin. Andrott is the largest Island with an area of 4.8 sq.km. (Minicoy is the second largest). The Eleven degree channel separates Amindivi Island in the north and Cannannore Island in the south. Hence, only statement (1) and (2) are correct.",
+      "source_page": 4
+    },
+    {
+      "id": 30,
+      "type": "single_choice",
+      "question": "The Andaman and Nicobar islands are separated by:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andaman Sea"
+        },
+        {
+          "id": "b",
+          "text": "Ten degree channel"
+        },
+        {
+          "id": "c",
+          "text": "Five degree"
+        },
+        {
+          "id": "d",
+          "text": "Palk strait"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The Andaman and Nicobar Islands are separated by Ten degree channel. The Andaman and Nicobar Islands is a union territory of India consisting of 836 Islands, among which 31 are inhabited. It is located at the junction of the Bay of Bengal and the Andaman Sea.",
+      "source_page": 4
+    },
+    {
+      "id": 31,
+      "type": "single_choice",
+      "question": "\"Majuli\", the largest river island in the world is located in which among the following states of India?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assam"
+        },
+        {
+          "id": "b",
+          "text": "Arunachal Pradesh"
+        },
+        {
+          "id": "c",
+          "text": "West Bengal"
+        },
+        {
+          "id": "d",
+          "text": "Meghalaya"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Majuli is a picturesque, lush green and pollution-free river island in the mighty River Brahmaputra in state of Assam. It is the world's largest river island and it attracts tourists from all over the world. Majuli is also a strong contender for a place in UNESCO's World Heritage Sites. Mostly inhabited by Tribals, the culture of Majuli is unique. It is also called the cultural capital of Assam.",
+      "source_page": 4
+    },
+    {
+      "id": 32,
+      "type": "single_choice",
+      "question": "On which river world’s largest ‘River Island’ is located?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nile"
+        },
+        {
+          "id": "b",
+          "text": "Amazon"
+        },
+        {
+          "id": "c",
+          "text": "Brahmaputra"
+        },
+        {
+          "id": "d",
+          "text": "Indus"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 4
+    },
+    {
+      "id": 33,
+      "type": "single_choice",
+      "question": "Which of the following is geographically closest to Great Nicobar?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sumatra"
+        },
+        {
+          "id": "b",
+          "text": "Borneo"
+        },
+        {
+          "id": "c",
+          "text": "Java"
+        },
+        {
+          "id": "d",
+          "text": "Sri Lanka ("
+        }
+      ],
+      "correct": "a",
+      "explanation": "Geographical coordinates of the locations are as follows : Great Nicobar - 7.03oN, 93.7oE Sumatra - 0oN, 102oE Borneo - 0oN, 114oE Java - 7o29’S, 110oE Sri Lanka - 7o N, 81o E Hence, from above, Sumatra will be closest to Great Nicobar.",
+      "source_page": 4
+    },
+    {
+      "id": 34,
+      "type": "single_choice",
+      "question": "On the coast of which state is Wheeler Island?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Goa"
+        },
+        {
+          "id": "b",
+          "text": "Gujarat"
+        },
+        {
+          "id": "c",
+          "text": "Odisha"
+        },
+        {
+          "id": "d",
+          "text": "Tamil Nadu"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Dr. Abdul Kalam Island, formerly known as Wheeler Island, is an island off the coast of Odisha, India. The Integrated Test Range missile testing facility is located on the island.",
+      "source_page": 4
+    },
+    {
+      "id": 35,
+      "type": "statement_combination",
+      "question": "Consider the following statements: 1. Salt-water crocodile is found in the Andaman and Nicobar Islands. 2. Shrew and Tapir are found in the Western Ghats of the Malabar region. Which of the statements given above is/are correct?",
+      "statements": [
+        {
+          "id": "1",
+          "text": "Salt-water crocodile is found in the Andaman and Nicobar Islands."
+        },
+        {
+          "id": "2",
+          "text": "Shrew and Tapir are found in the Western Ghats of the Malabar region."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "1 only"
+        },
+        {
+          "id": "b",
+          "text": "2 only"
+        },
+        {
+          "id": "c",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "d",
+          "text": "Neither 1 nor 2 (I.A.S. (Pre) G.S. 2008)"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Salt-water crocodile is found in the Andaman and Nicobar Islands. Shrew and Tapir are found in the Himalayan ranges and not in Western Ghats of the Malabar region.",
+      "source_page": 4
+    },
+    {
+      "id": 36,
+      "type": "single_choice",
+      "question": "‘Saddle Peak’, the highest peak of Andaman and Nicobar islands, is located in-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Great Nicobar"
+        },
+        {
+          "id": "b",
+          "text": "Middle Andaman"
+        },
+        {
+          "id": "c",
+          "text": "Little Andaman"
+        },
+        {
+          "id": "d",
+          "text": "North Andaman ("
+        }
+      ],
+      "correct": "d",
+      "explanation": "Saddle Peak or Saddle Hill is located on North Andaman Island in India's Andaman and Nicobar Islands. At 732 m, it is the highest point of the archipelago in the Bay of Bengal. It is surrounded by Saddle Peak National Park.",
+      "source_page": 5
+    },
+    {
+      "id": 37,
+      "type": "single_choice",
+      "question": "According to the ancient Indian geographical concept, ‘Bharatvarsha’ was a part of-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pushkaradweepa"
+        },
+        {
+          "id": "b",
+          "text": "Jambudweepa"
+        },
+        {
+          "id": "c",
+          "text": "Kraunchadweepa"
+        },
+        {
+          "id": "d",
+          "text": "Kushdweepa"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Meaning of Jambudweepa is Jambu ( Indian blackberry fruit) and dweepa (an Island or continent). According to Indian mythology the earth or terrestial region is divided into two hemispheres, the northern hemisphere called as the \"Jambudweepa\" while the southern hemisphere is \"Patala\". Bharatvarsha is one of the nine parts of the whole Jambudweepa.",
+      "source_page": 5
+    },
+    {
+      "id": 38,
+      "type": "single_choice",
+      "question": "The Palk strait lies between:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gulf of Kutch and Gulf of Khambhat"
+        },
+        {
+          "id": "b",
+          "text": "Gulf of Mannar and Bay of Bengal"
+        },
+        {
+          "id": "c",
+          "text": "Lakshadweep and Maldives Islands"
+        },
+        {
+          "id": "d",
+          "text": "Andaman and Nicobar Islands"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The Palk Strait is a strait between the Tamil Nadu state of India and the Jaffna District of the Northern Province of the island nation of Sri Lanka. It connects the Bay of Bengal in the northeast with Palk Strait in the southwest. Palk strait is situated at its southern end with a chain of low islands and reef shoals that are collectively called Adam's Bridge. This chain extends between Dhanushkodi on Pamban Island (also known as Rameswaram Island) in Tamil Nadu and Mannar Island in Sri Lanka. The island of Rameswaram is linked to the Indian mainland by the Pamban Bridge.",
+      "source_page": 5
+    },
+    {
+      "id": 39,
+      "type": "single_choice",
+      "question": "Which of the following is also known as ‘Cape Comorin’?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mizoram"
+        },
+        {
+          "id": "b",
+          "text": "Kashmir"
+        },
+        {
+          "id": "c",
+          "text": "Kanyakumari"
+        },
+        {
+          "id": "d",
+          "text": "Gujarat Uttarakhand UDA/LDA (Pre) G.S. 2006"
+        }
+      ],
+      "correct": "c",
+      "explanation": "The Bay of Bengal, Arabian Sea and the Indian Ocean meet at the southernmost part of Indian peninsula which is Kanyakumari (popularly known as Cape Comorin).",
+      "source_page": 5
+    },
+    {
+      "id": 40,
+      "type": "single_choice",
+      "question": "The most populated Island of India is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Majuli"
+        },
+        {
+          "id": "b",
+          "text": "Andaman"
+        },
+        {
+          "id": "c",
+          "text": "Lakshadweep"
+        },
+        {
+          "id": "d",
+          "text": "Salsette"
+        }
+      ],
+      "correct": "d",
+      "explanation": "According to the 2011 census report, among given islands Salsette is the most populated island in India. It is bounded on North by Vasai Creek on North-East by Ulhas river on East by Thane Creek and South and West by Arabian Sea. The island houses Mumbai which is a group of separate islands namely Colaba, Old Womans, Apollo Bundar, Mazagaon, Parel-Sewri-Sion, Mahim-Barradbet and Worli. Salsette is divided as North Salsette and South Salsette. South Salsette is now a part of Mumbai Suburban district and North Salsette forms part of Thane District.",
+      "source_page": 5
+    },
+    {
+      "id": 41,
+      "type": "pair_selection",
+      "question": "Consider the following cities of India and Choose from the given code that which of them is located on the western coast? 1. Janjira 2. Udupi 3. Auroville 4. Tuticorin",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 and 2"
+        },
+        {
+          "id": "b",
+          "text": "2 and 3"
+        },
+        {
+          "id": "c",
+          "text": "3 and 4"
+        },
+        {
+          "id": "d",
+          "text": "1, 2 and 4"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Cities - Coast 1. Janjira - Maharashtra-western coast 2. Udupi - Karnataka-western coast 3. Auroville - Pondicherry -Eastern coast 4. Tuticorin - Tamil Nadu-Eastern coast",
+      "source_page": 5
+    },
+    {
+      "id": 42,
+      "type": "single_choice",
+      "question": "In which of the following place three semi-lunar shaped sea coast are found?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marmagaon"
+        },
+        {
+          "id": "b",
+          "text": "Baleshwar"
+        },
+        {
+          "id": "c",
+          "text": "Kovalam"
+        },
+        {
+          "id": "d",
+          "text": "Kanyakumari"
+        }
+      ],
+      "correct": "d",
+      "explanation": "At Kanyakumari three semi-lunar shaped sea coast are found.",
+      "source_page": 5
+    },
+    {
+      "id": 43,
+      "type": "single_choice",
+      "question": "Which of the following Islands of India has volcanic origin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Barren"
+        },
+        {
+          "id": "b",
+          "text": "Car Nicobar"
+        },
+        {
+          "id": "c",
+          "text": "Little Andaman"
+        },
+        {
+          "id": "d",
+          "text": "Northern Andaman"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Barren Island is situated in the Andaman Sea, and lies about 138 km (86 mi) northeast of the Port Blair. It is the only active volcano along the chain from Sumatra to Myanmar and also the only confirmed active volcano in India. Barren Island is a part of the Indian Union Territory of Andaman and Nicobar Islands and is well known as a under-sea volcano, which lies above the subduction zone of Indian and Burmese plate.",
+      "source_page": 5
+    },
+    {
+      "id": 44,
+      "type": "single_choice",
+      "question": "Where is Lakshadweep located?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Indian Ocean"
+        },
+        {
+          "id": "b",
+          "text": "Arabian Sea"
+        },
+        {
+          "id": "c",
+          "text": "Bay of Bengal"
+        },
+        {
+          "id": "d",
+          "text": "Pacific Ocean"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Lakshadweep, the group of 36 islands is known for its exotic and sun-kissed beaches and lush green landscape. The name Lakshadweep in Malayalam and Sanskrit means \"a hundred thousands Islands.\" India’s smallest Union Territory Lakshadweep is an archipelago with an area of 32 sq km. It is located in Arabian Sea off the coast of Kerala. It is of coral origin.",
+      "source_page": 5
+    },
+    {
+      "id": 45,
+      "type": "single_choice",
+      "question": "Group of islands, Lakshadweep-",
+      "options": [
+        {
+          "id": "a",
+          "text": "is of coral origin"
+        },
+        {
+          "id": "b",
+          "text": "is of volcanic origin"
+        },
+        {
+          "id": "c",
+          "text": "is of soil erosion"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 5
+    },
+    {
+      "id": 46,
+      "type": "single_choice",
+      "question": "Lakshadweep Island is located in-",
+      "options": [
+        {
+          "id": "a",
+          "text": "South-west India"
+        },
+        {
+          "id": "b",
+          "text": "South India"
+        },
+        {
+          "id": "c",
+          "text": "South-East India"
+        },
+        {
+          "id": "d",
+          "text": "Eastern India near West Bengal"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Lakshadweep Island is located in south-west direction of India.",
+      "source_page": 6
+    },
+    {
+      "id": 47,
+      "type": "single_choice",
+      "question": "Rameswaram is a part of-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "b",
+          "text": "West Bengal"
+        },
+        {
+          "id": "c",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "d",
+          "text": "Kerala"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Pamban Island also known as Rameswaram Island, is an island located between peninsular India and Sri Lanka. The island is a part of India and forms the Rameswaram taluk of the Ramanathapuram district of the state of Tamil Nadu. It is the largest island in Tamil Nadu by area. The principal town in the island is the pilgrimage centre of Rameswaram.",
+      "source_page": 6
+    },
+    {
+      "id": 48,
+      "type": "single_choice",
+      "question": "Which one of the following Indian Islands lies in between India and Sri Lanka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elephanta"
+        },
+        {
+          "id": "b",
+          "text": "Nicobar"
+        },
+        {
+          "id": "c",
+          "text": "Rameshwaram"
+        },
+        {
+          "id": "d",
+          "text": "Salsette"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 49,
+      "type": "single_choice",
+      "question": "A big city of India is situated on an Island-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panaji"
+        },
+        {
+          "id": "b",
+          "text": "Rameshwaram"
+        },
+        {
+          "id": "c",
+          "text": "Portblair"
+        },
+        {
+          "id": "d",
+          "text": "Mumbai"
+        }
+      ],
+      "correct": "d",
+      "explanation": "The city of Mumbai is situated on the group of Islands. Name Colaba, Old Woman's, Mazagaon, Apollo Bundar, Parel-Sewri-Sion, Mahim-Worli and Sourth Salsette.",
+      "source_page": 6
+    },
+    {
+      "id": 50,
+      "type": "single_choice",
+      "question": "Kori creek is located in-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gulf of Kutch"
+        },
+        {
+          "id": "b",
+          "text": "Gulf of Khambhat"
+        },
+        {
+          "id": "c",
+          "text": "Little Rann of Kutch"
+        },
+        {
+          "id": "d",
+          "text": "Rann of Kutch"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Kori Creek is located in the Rann of Kutch.",
+      "source_page": 6
+    },
+    {
+      "id": 51,
+      "type": "single_choice",
+      "question": "Which of the following states has maximum coastal line?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gujarat"
+        },
+        {
+          "id": "b",
+          "text": "Maharashtra"
+        },
+        {
+          "id": "c",
+          "text": "Kerala"
+        },
+        {
+          "id": "d",
+          "text": "Tamil Nadu"
+        }
+      ],
+      "correct": "a",
+      "explanation": "The total coastline of India measures about 7,517 km,the longest coastline is of Gujarat (1214.7 km) followed by Andhra Pradesh and Tamil Nadu. Gujarat has the longest coastline in India and Goa (101 Km) has the shortest. There are total 9 coastal states in India. However, among state/UT Andaman & Nicobar Islands has highest length of Coastline (1962 km).",
+      "source_page": 6
+    },
+    {
+      "id": 52,
+      "type": "single_choice",
+      "question": "In India, How many States share the coastline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "10 I.A.S. (Pre) G.S. 2008"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 53,
+      "type": "single_choice",
+      "question": "How many Indian states are located on coastal line?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "10 UP RO/ARO (Pre) G.S. 2014"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 54,
+      "type": "single_choice",
+      "question": "The coastal line of India is-",
+      "options": [
+        {
+          "id": "a",
+          "text": "6,200 Km. long"
+        },
+        {
+          "id": "b",
+          "text": "6,100 Km. long"
+        },
+        {
+          "id": "c",
+          "text": "5,985 Km. long"
+        },
+        {
+          "id": "d",
+          "text": "6,175 Km. long"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 55,
+      "type": "single_choice",
+      "question": "The total length of coastline of India is around-",
+      "options": [
+        {
+          "id": "a",
+          "text": "3500 KM"
+        },
+        {
+          "id": "b",
+          "text": "8000 KM"
+        },
+        {
+          "id": "c",
+          "text": "6000 KM"
+        },
+        {
+          "id": "d",
+          "text": "7500 KM"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 56,
+      "type": "single_choice",
+      "question": "Which of the following state has longest coast line of India?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "b",
+          "text": "Gujarat"
+        },
+        {
+          "id": "c",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "d",
+          "text": "Kerala"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 57,
+      "type": "single_choice",
+      "question": "Which of the following States of India has the longest coastline?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maharashtra"
+        },
+        {
+          "id": "b",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "c",
+          "text": "Kerala"
+        },
+        {
+          "id": "d",
+          "text": "Gujarat"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 58,
+      "type": "single_choice",
+      "question": "Which of the following Indian states has largest coast line?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "b",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "c",
+          "text": "Gujarat"
+        },
+        {
+          "id": "d",
+          "text": "West Bengal"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 59,
+      "type": "single_choice",
+      "question": "State in India with longest coastal line is-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maharashtra"
+        },
+        {
+          "id": "b",
+          "text": "Kerala"
+        },
+        {
+          "id": "c",
+          "text": "Gujarat"
+        },
+        {
+          "id": "d",
+          "text": "West Bengal"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 6
+    },
+    {
+      "id": 60,
+      "type": "single_choice",
+      "question": "Which of the following states has longest coastal line?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "b",
+          "text": "Andhra Pradesh"
+        },
+        {
+          "id": "c",
+          "text": "Maharashtra"
+        },
+        {
+          "id": "d",
+          "text": "Karnataka"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Amongst the given states Andhra Pradesh has the longest coastline of 973.7 km. followed by Tamil Nadu 906.9 km, Maharashtra 652.6 km and Karnataka 280 km.",
+      "source_page": 6
+    },
+    {
+      "id": 61,
+      "type": "single_choice",
+      "question": "Which State in India has both Eastern Ghats and Western Ghats?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kerala"
+        },
+        {
+          "id": "b",
+          "text": "Tamil Nadu"
+        },
+        {
+          "id": "c",
+          "text": "Odisha"
+        },
+        {
+          "id": "d",
+          "text": "Andhra Pradesh"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Tamil Nadu has both Eastern Ghats and Western Ghats. Eastern Ghats and Western Ghats converse in Nilgiri hills. Doddabetta second highest peak of western ghats situated on Nilgiri Hills.",
+      "source_page": 7
+    },
+    {
+      "id": 62,
+      "type": "single_choice",
+      "question": "In which part of India, the daily range of temperature is found greater?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eastern Coastal areas"
+        },
+        {
+          "id": "b",
+          "text": "Interior areas of Chhattisgarh plain"
+        },
+        {
+          "id": "c",
+          "text": "Andaman Islands"
+        },
+        {
+          "id": "d",
+          "text": "Desert areas of Rajasthan"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Part of India that experiences the highest diurnal range of temperature is Thar Desert. It is situated towards western side of India in the state of Rajasthan. This is because it is filled with sand which gets heated up quickly during day and cooled up very quickly during nights.",
+      "source_page": 7
+    },
+    {
+      "id": 63,
+      "type": "single_choice",
+      "question": "Which of the following canal has transformed agricultural activities of western districts of Rajasthan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanhar Canal"
+        },
+        {
+          "id": "b",
+          "text": "Ramganga Canal"
+        },
+        {
+          "id": "c",
+          "text": "Sharda Sahayak Canal"
+        },
+        {
+          "id": "d",
+          "text": "Indira Gandhi Canal"
+        }
+      ],
+      "correct": "d",
+      "explanation": "Indira Gandhi Canal has transformed agricultural activities of western districts of Rajasthan. Western Rajasthan is a region of very high ecological importance for which Indira Gandhi Canal has a great contribution. Water from this canal has solved drinking water scarcity as well as agricultural activities throughout a big area of Rajasthan. This canal is also helping to recover cultivation land from desert areas.",
+      "source_page": 7
+    },
+    {
+      "id": 64,
+      "type": "matching",
+      "question": "Match List-I with List-II and choose the correct answer from the codes given below.",
+      "matching": {
+        "left_label": "List-I (Beach)",
+        "right_label": "List-II (Location)",
+        "left": [
+          {
+            "id": "A",
+            "text": "Colva"
+          },
+          {
+            "id": "B",
+            "text": "Mangrol"
+          },
+          {
+            "id": "C",
+            "text": "Kannur"
+          },
+          {
+            "id": "D",
+            "text": "Bakkhali"
+          }
+        ],
+        "right": [
+          {
+            "id": "1",
+            "text": "West Bengal"
+          },
+          {
+            "id": "2",
+            "text": "Goa"
+          },
+          {
+            "id": "3",
+            "text": "Gujarat"
+          },
+          {
+            "id": "4",
+            "text": "Kerala"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "4 3 2 1"
+        },
+        {
+          "id": "b",
+          "text": "1 4 3 2"
+        },
+        {
+          "id": "c",
+          "text": "2 4 3 1"
+        },
+        {
+          "id": "d",
+          "text": "2 3 4 1"
+        }
+      ],
+      "correct": "d",
+      "explanation": "The correct matches are as follows- Colva → Goa Mangrol → Gujarat Kannur → Kerala Bakkhalil → West Bengal",
+      "source_page": 7
+    },
+    {
+      "id": 65,
+      "type": "single_choice",
+      "question": "Coral reefs are not found in which one of the following regions:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gulf of Cambay"
+        },
+        {
+          "id": "b",
+          "text": "Gulf of Mannar"
+        },
+        {
+          "id": "c",
+          "text": "Gulf of Kutch"
+        },
+        {
+          "id": "d",
+          "text": "Lakshadweep and Minicoy Island"
+        },
+        {
+          "id": "e",
+          "text": "None of the above/More than one of the above"
+        }
+      ],
+      "correct": "a",
+      "explanation": "The coral reefs in India are found in the Gulf of Kutch, Gulf of Mannar, Lakshadweep and Andaman and Nicobar Islands. These are not found in the Gulf of Cambay.",
+      "source_page": 7
+    },
+    {
+      "id": 66,
+      "type": "statement_combination",
+      "question": "Consider the following statements: Among the Indian States- 1. Andhra Pradesh has the longest coastline 2. Gujarat has the highest number of airport Which of the above statements is/are correct?",
+      "statements": [
+        {
+          "id": "1",
+          "text": "Andhra Pradesh has the longest coastline"
+        },
+        {
+          "id": "2",
+          "text": "Gujarat has the highest number of airport"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "1 only"
+        },
+        {
+          "id": "b",
+          "text": "2 only"
+        },
+        {
+          "id": "c",
+          "text": "Both 1 and 2"
+        },
+        {
+          "id": "d",
+          "text": "Neither 1 nor 2 ("
+        }
+      ],
+      "correct": "b",
+      "explanation": "As of 2021 Gujarat has a total of 19 airports which makes it as the largest networks of airports among Indian states. It has the longest coastline as well.",
+      "source_page": 7
+    },
+    {
+      "id": 67,
+      "type": "single_choice",
+      "question": "Which of the following pairs is associated with the minimum distance between mainland of India and main land of Sri Lanka?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jaffna : Vedaranyam"
+        },
+        {
+          "id": "b",
+          "text": "Talaimannar : Dhanushkodi"
+        },
+        {
+          "id": "c",
+          "text": "Colombo : Kanyakumari"
+        },
+        {
+          "id": "d",
+          "text": "Talaimannar : Tuticorin"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The minimum distance between India and Sri Lanka is between Talaimannar and Dhanushkodi.",
+      "source_page": 7
+    },
+    {
+      "id": 68,
+      "type": "single_choice",
+      "question": "Some people in Manipur live in houses built on floating islands of weeds and decaying vegetation held together by suspended silt. These islands are called-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tipis"
+        },
+        {
+          "id": "b",
+          "text": "Barkhans"
+        },
+        {
+          "id": "c",
+          "text": "Phumdis"
+        },
+        {
+          "id": "d",
+          "text": "Izba"
+        }
+      ],
+      "correct": "c",
+      "explanation": "Some people in Manipur live in houses built on floating islands of weeds and decaying vegetation held together by suspended silt. These islands are called Phumdis. Phumdis cover about two-thirds of Loktak's surface. The two metre thick Phumdis are buoyant enough to support bamboo hutments.",
+      "source_page": 7
+    },
+    {
+      "id": 69,
+      "type": "single_choice",
+      "question": "Which is the meeting point of Eastern and Western Ghats?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jawadi hill"
+        },
+        {
+          "id": "b",
+          "text": "Annamalai hills"
+        },
+        {
+          "id": "c",
+          "text": "Nilgiri Hills"
+        },
+        {
+          "id": "d",
+          "text": "Shevaroy hills"
+        }
+      ],
+      "correct": "c",
+      "explanation": "The Eastern Ghats are a discontinuous range of mountains along India's eastern coast whereas Western Ghats also known as Sahyadri is a mountain range that runs parallel to the western coast of the Indian peninsula.Eastern ghats and Western ghats meet at the Nilgiri hills in Tamilnadu.",
+      "source_page": 7
+    },
+    {
+      "id": 70,
+      "type": "ordering",
+      "question": "Consider the following regions— 1. Gulf of Khambat 2. Gulf of Kutch 3. Sunderban Correct sequence of these regions in decending order of their decreasing tidal power-",
+      "items": [
+        {
+          "id": "1",
+          "text": "Gulf of Khambat"
+        },
+        {
+          "id": "2",
+          "text": "Gulf of Kutch"
+        },
+        {
+          "id": "3",
+          "text": "Sunderban"
+        }
+      ],
+      "ordering_instruction": "Arrange the items in the correct order.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1-2-3"
+        },
+        {
+          "id": "b",
+          "text": "3-2-1"
+        },
+        {
+          "id": "c",
+          "text": "3-1-2"
+        },
+        {
+          "id": "d",
+          "text": "1-3-2 I.A.S. (Pre) Opt. Geog. 2003"
+        }
+      ],
+      "correct": "a",
+      "explanation": "The Gulf of Khambhat region receives the highest tides. After this, tides come in the Gulf of Kutch and Sundarbans.",
+      "source_page": 8
+    },
+    {
+      "id": 71,
+      "type": "statement_combination",
+      "question": "In which of the following there are coral reefs? 1. Andaman Nicobar Island 2. Gulf of Kutch 3. Gulf of Mannar 4. Sundarban Select the correct answer using the codes given below—",
+      "statements": [
+        {
+          "id": "1",
+          "text": "Andaman Nicobar Island"
+        },
+        {
+          "id": "2",
+          "text": "Gulf of Kutch"
+        },
+        {
+          "id": "3",
+          "text": "Gulf of Mannar"
+        },
+        {
+          "id": "4",
+          "text": "Sundarban"
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only 1, 2 & 3"
+        },
+        {
+          "id": "b",
+          "text": "Only 2 & 3"
+        },
+        {
+          "id": "c",
+          "text": "Only 1 & 3"
+        },
+        {
+          "id": "d",
+          "text": "1, 2, 3 & 4 ("
+        }
+      ],
+      "correct": "a",
+      "explanation": "Coral reefs are found in Andaman and Nicobar Islands, Gulf of Mannar and Gulf of Kutch. Sunderban is known for mangrove forest.",
+      "source_page": 8
+    },
+    {
+      "id": 72,
+      "type": "matching",
+      "question": "Match the List I with List II and choose the correct answer from the codes given below.",
+      "matching": {
+        "left_label": "List-I (State)",
+        "right_label": "List-II (Tourist Centres)",
+        "left": [
+          {
+            "id": "A",
+            "text": "Himachal Pradesh"
+          },
+          {
+            "id": "B",
+            "text": "Uttaranchal"
+          },
+          {
+            "id": "C",
+            "text": "Karnataka"
+          },
+          {
+            "id": "D",
+            "text": "Tamil Nadu"
+          }
+        ],
+        "right": [
+          {
+            "id": "1",
+            "text": "Oly (Auli)"
+          },
+          {
+            "id": "2",
+            "text": "Ooty"
+          },
+          {
+            "id": "3",
+            "text": "Kilong"
+          },
+          {
+            "id": "4",
+            "text": "Chikmagalur"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "3 1 4 2"
+        },
+        {
+          "id": "b",
+          "text": "1 2 3 4"
+        },
+        {
+          "id": "c",
+          "text": "4 3 2 1"
+        },
+        {
+          "id": "d",
+          "text": "3 2 1 4"
+        }
+      ],
+      "correct": "a",
+      "explanation": "The correct match is as follows :- State Tourist Centres Himachal Pradesh – Kilong Uttaranchal – Auli (Oly) Karnataka – Chikmagalur Tamil Nadu – Ooty",
+      "source_page": 8
+    },
+    {
+      "id": 73,
+      "type": "single_choice",
+      "question": "Name the place in India where Bay of Bengal, Arabian sea and Indian Ocean meet-",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanyakumari"
+        },
+        {
+          "id": "b",
+          "text": "Indira Point"
+        },
+        {
+          "id": "c",
+          "text": "Nagarcoil"
+        },
+        {
+          "id": "d",
+          "text": "Rameswaram"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Kindly refer the explanation of above question.",
+      "source_page": 8
+    },
+    {
+      "id": 74,
+      "type": "statement_combination",
+      "question": "Consider the following statements— 1. Coastal region between Eastern Ghat and Bay of Bengal is comparatively narrow than the area between Western Ghat and Arabian sea. 2. Indus river originates from Tibet near Mansarovar and lastly merges into sea near Karachi. Which of the above statements is/are true?",
+      "statements": [
+        {
+          "id": "1",
+          "text": "Coastal region between Eastern Ghat and Bay of Bengal is comparatively narrow than the area between Western Ghat and Arabian sea."
+        },
+        {
+          "id": "2",
+          "text": "Indus river originates from Tibet near Mansarovar and lastly merges into sea near Karachi."
+        }
+      ],
+      "options": [
+        {
+          "id": "a",
+          "text": "Only 1"
+        },
+        {
+          "id": "b",
+          "text": "Only 2"
+        },
+        {
+          "id": "c",
+          "text": "1 & 2 both"
+        },
+        {
+          "id": "d",
+          "text": "Neither 1 nor 2 (I.A.S. (Pre) Opt. Geog. 2005)"
+        }
+      ],
+      "correct": "a",
+      "explanation": "Statement 1 is incorrect,as Coastal region between Eastern Ghat and Bay of Bengal is comparatively broader than the area between Western Ghat and Arabian sea.Whereas the 2nd statement is true as The Indus River (locally called Sindhu) is one of the longest rivers in Asia, originating in the Tibetan Plateau in the vicinity of Lake Manasarovar. The river runs in a course through Ladakh towards the Giligit- Baltistan region of Hindukush ranges, and then flows in a Southern direction to merge into the Arabian Sea near the port city of Karachi in Sindh (Pakistan).",
+      "source_page": 8
+    },
+    {
+      "id": 75,
+      "type": "matching",
+      "question": "Cutting down of mangroves has led to the worst effects of cyclone. Match List-I with List-II and choose the correct answer from the codes given below.",
+      "matching": {
+        "left_label": "List-I (Sea beach)",
+        "right_label": "List-II (State)",
+        "left": [
+          {
+            "id": "A",
+            "text": "Digha"
+          },
+          {
+            "id": "B",
+            "text": "Gopalpur"
+          },
+          {
+            "id": "C",
+            "text": "Calangute"
+          },
+          {
+            "id": "D",
+            "text": "Marina"
+          }
+        ],
+        "right": [
+          {
+            "id": "1",
+            "text": "Tamil Nadu"
+          },
+          {
+            "id": "2",
+            "text": "West Bengal"
+          },
+          {
+            "id": "3",
+            "text": "Odisha"
+          },
+          {
+            "id": "4",
+            "text": "Goa"
+          }
+        ]
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "1 2 4 3"
+        },
+        {
+          "id": "b",
+          "text": "2 3 4 1"
+        },
+        {
+          "id": "c",
+          "text": "2 1 3 4"
+        },
+        {
+          "id": "d",
+          "text": "4 3 2 1"
+        }
+      ],
+      "correct": "b",
+      "explanation": "The correct match is as follows :- Sea Beach – State Digha – West Bengal Gopalpur – Odisha Calangute – Goa Marina – Tamil Nadu",
+      "source_page": 8
+    },
+    {
+      "id": 76,
+      "type": "single_choice",
+      "question": "Gulf of Cambay is located adjacent to which of these States of India?",
+      "options": [
+        {
+          "id": "a",
+          "text": "West Bengal"
+        },
+        {
+          "id": "b",
+          "text": "Gujarat"
+        },
+        {
+          "id": "c",
+          "text": "Odisha"
+        },
+        {
+          "id": "d",
+          "text": "Goa"
+        }
+      ],
+      "correct": "b",
+      "explanation": "Gulf of Cambay also known as the Gulf of Khambhat, is a bay on the Arabian Sea Coast of India, bordering the state of Gujarat.",
+      "source_page": 8
+    }
+  ]
+}
